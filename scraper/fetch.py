@@ -1,7 +1,7 @@
-#!/usr/bin/env python3
+    #!/usr/bin/env python3
 """
 Dallas County TX – Motivated Seller Lead Scraper
-Uses PublicSearch for clerk records + DCAD CSV for parcel lookup.
+Uses PublicSearch for clerk records + DCAD ACCOUNT_INFO.CSV for parcel lookup.
 """
 
 import asyncio
@@ -11,7 +11,6 @@ import json
 import logging
 import re
 import traceback
-import zipfile
 from datetime import datetime, timedelta
 from difflib import SequenceMatcher
 from pathlib import Path
@@ -33,10 +32,10 @@ logging.basicConfig(
 log = logging.getLogger(__name__)
 
 BASE_URL      = "https://dallas.tx.publicsearch.us"
-DCAD_ZIP_URL  = "https://dallascad.org/ViewPDFs.aspx?type=3&id=\\\\DCAD.ORG\\WEB\\WEBDATA\\WEBFORMS\\DATA%20PRODUCTS\\DCAD2026_CURRENT.ZIP"
+ACCT_INFO_URL = "https://drive.google.com/uc?export=download&id=1RvVg3bJO-1zXvcYDnOnst4mGFwAVaxEI"
 LOOKBACK_DAYS = 101
 PAGE_LIMIT    = 250
-REQUEST_TIMEOUT = 120
+REQUEST_TIMEOUT = 300
 
 DOC_TYPES = {
     "LP":  ("pre_foreclosure", "Lis Pendens"),
@@ -114,73 +113,74 @@ def normalize_for_fuzzy(name: str) -> tuple:
 
 def build_parcel_lookup() -> dict:
     lookup = {}
-    log.info("Downloading Dallas CAD data...")
+    log.info("Downloading DCAD ACCOUNT_INFO.CSV from Google Drive...")
     try:
         session = requests.Session()
         session.headers.update({"User-Agent": "Mozilla/5.0"})
-        r = session.get(DCAD_ZIP_URL, timeout=REQUEST_TIMEOUT, stream=True)
+
+        # Handle Google Drive large file confirmation
+        r = session.get(ACCT_INFO_URL, stream=True, timeout=REQUEST_TIMEOUT)
+
+        # Check for virus scan warning page
+        if "confirm=" in r.url or "virus scan warning" in r.text.lower():
+            # Extract confirm token
+            confirm = re.search(r'confirm=([0-9A-Za-z_]+)', r.text)
+            if confirm:
+                url = ACCT_INFO_URL + "&confirm=" + confirm.group(1)
+                r = session.get(url, stream=True, timeout=REQUEST_TIMEOUT)
+
         if r.status_code != 200:
-            log.warning(f"DCAD download error: {r.status_code}")
+            log.warning(f"Download error: {r.status_code}")
             return lookup
 
-        zip_bytes = io.BytesIO(r.content)
         log.info("Parsing ACCOUNT_INFO.CSV (residential only)...")
+        content = b""
+        for chunk in r.iter_content(chunk_size=1024*1024):
+            content += chunk
 
-        with zipfile.ZipFile(zip_bytes) as zf:
-            # Find ACCOUNT_INFO.CSV
-            names = zf.namelist()
-            log.info(f"ZIP contains: {names}")
-            acct_file = next((n for n in names if "ACCOUNT_INFO" in n.upper()), None)
-            if not acct_file:
-                log.warning("ACCOUNT_INFO.CSV not found in ZIP")
-                return lookup
+        reader = csv.DictReader(io.StringIO(content.decode("latin-1")))
+        total = 0
+        for row in reader:
+            if row.get("DIVISION_CD", "").strip().upper() != "RES":
+                continue
 
-            with zf.open(acct_file) as f:
-                reader = csv.DictReader(io.TextIOWrapper(f, encoding="latin-1"))
-                total = 0
-                for row in reader:
-                    # Residential only
-                    if row.get("DIVISION_CD", "").strip().upper() != "RES":
-                        continue
+            owner_name = (row.get("OWNER_NAME1") or "").strip().upper()
+            if not owner_name:
+                continue
 
-                    owner_name = (row.get("OWNER_NAME1") or "").strip().upper()
-                    if not owner_name:
-                        continue
+            if any(x in owner_name for x in ("LLC", "INC", "CORP", "LTD", "TRUST", "ASSOC")):
+                continue
 
-                    # Skip LLC/corp
-                    if any(x in owner_name for x in ("LLC", "INC", "CORP", "LTD", "LP ", "L.P.", "TRUST", "ASSOC")):
-                        continue
+            street_num  = (row.get("STREET_NUM") or "").strip()
+            street_name = (row.get("FULL_STREET_NAME") or "").strip()
+            prop_city   = (row.get("PROPERTY_CITY") or "Dallas").strip()
+            prop_zip    = (row.get("PROPERTY_ZIPCODE") or "").strip()
+            prop_address = f"{street_num} {street_name}".strip()
 
-                    street_num  = (row.get("STREET_NUM") or "").strip()
-                    street_name = (row.get("FULL_STREET_NAME") or "").strip()
-                    prop_city   = (row.get("PROPERTY_CITY") or "Dallas").strip()
-                    prop_zip    = (row.get("PROPERTY_ZIPCODE") or "").strip()
-                    prop_address = f"{street_num} {street_name}".strip()
+            mail1 = (row.get("OWNER_ADDRESS_LINE1") or "").strip()
+            mail2 = (row.get("OWNER_ADDRESS_LINE2") or "").strip()
+            mail_address = f"{mail1} {mail2}".strip() if mail2 else mail1
+            mail_city    = (row.get("OWNER_CITY") or "").strip()
+            mail_state   = (row.get("OWNER_STATE") or "TX").strip()
+            mail_zip     = (row.get("OWNER_ZIPCODE") or "").strip()
 
-                    mail1 = (row.get("OWNER_ADDRESS_LINE1") or "").strip()
-                    mail2 = (row.get("OWNER_ADDRESS_LINE2") or "").strip()
-                    mail_address = f"{mail1} {mail2}".strip() if mail2 else mail1
-                    mail_city    = (row.get("OWNER_CITY") or "").strip()
-                    mail_state   = (row.get("OWNER_STATE") or "TX").strip()
-                    mail_zip     = (row.get("OWNER_ZIPCODE") or "").strip()
+            parcel = {
+                "prop_address": prop_address,
+                "prop_city":    prop_city,
+                "prop_state":   "TX",
+                "prop_zip":     prop_zip,
+                "mail_address": mail_address,
+                "mail_city":    mail_city,
+                "mail_state":   mail_state,
+                "mail_zip":     mail_zip,
+            }
 
-                    parcel = {
-                        "prop_address": prop_address,
-                        "prop_city":    prop_city,
-                        "prop_state":   "TX",
-                        "prop_zip":     prop_zip,
-                        "mail_address": mail_address,
-                        "mail_city":    mail_city,
-                        "mail_state":   mail_state,
-                        "mail_zip":     mail_zip,
-                    }
+            for variant in name_variants(owner_name):
+                lookup[variant] = parcel
 
-                    for variant in name_variants(owner_name):
-                        lookup[variant] = parcel
-
-                    total += 1
-                    if total % 50000 == 0:
-                        log.info(f"  Processed {total:,} residential parcels...")
+            total += 1
+            if total % 50000 == 0:
+                log.info(f"  Processed {total:,} residential parcels...")
 
         log.info(f"Dallas CAD lookup built: {len(lookup):,} name variants from {total:,} parcels")
 
@@ -453,14 +453,14 @@ def score_record(rec: dict) -> tuple:
     dtype  = rec.get("doc_type", "")
     amount = rec.get("amount") or 0
 
-    if dtype == "LP":              flags.append("Lis pendens")
+    if dtype == "LP":                flags.append("Lis pendens")
     if dtype in ("FTL","STL","NLF"): flags.append("Tax lien")
-    if dtype in ("JUD","AJ"):      flags.append("Judgment lien")
-    if dtype in ("PB","AH"):       flags.append("Probate / estate")
-    if dtype == "ML":              flags.append("Mechanic lien")
-    if dtype in ("LC","ALN","ADL"): flags.append("Lien")
-    if dtype == "CSL":             flags.append("Child support lien")
-    if dtype == "HL":              flags.append("Hospital lien")
+    if dtype in ("JUD","AJ"):        flags.append("Judgment lien")
+    if dtype in ("PB","AH"):         flags.append("Probate / estate")
+    if dtype == "ML":                flags.append("Mechanic lien")
+    if dtype in ("LC","ALN","ADL"):  flags.append("Lien")
+    if dtype == "CSL":               flags.append("Child support lien")
+    if dtype == "HL":                flags.append("Hospital lien")
 
     owner = rec.get("owner", "").upper()
     if any(x in owner for x in ("LLC", "INC", "CORP", "LTD", "LP ", "L.P.")):
@@ -475,12 +475,12 @@ def score_record(rec: dict) -> tuple:
 
     has_addr = bool(rec.get("prop_address") or rec.get("mail_address"))
     score += 10 * len(flags)
-    if "Lis pendens" in flags:   score += 20
+    if "Lis pendens" in flags:      score += 20
     if "Probate / estate" in flags: score += 10
     if amount and amount > 100_000: score += 15
     elif amount and amount > 50_000: score += 10
-    if "New this week" in flags: score += 5
-    if has_addr: score += 5
+    if "New this week" in flags:    score += 5
+    if has_addr:                    score += 5
     return min(score, 100), flags
 
 
@@ -526,7 +526,10 @@ def build_output(raw_records: list, date_from: str, date_to: str) -> dict:
         except Exception:
             log.warning(f"Skipping: {traceback.format_exc()}")
 
+    # Remove records with no address
     out_records = [r for r in out_records if r.get("prop_address") or r.get("mail_address")]
+
+    # Remove LLC/corp owned properties
     out_records = [r for r in out_records if not any(
         x in (r.get("owner", "")).upper()
         for x in ("LLC", "INC", "CORP", "LTD", "LP ", "L.P.", "TRUST", "ASSOC", "HOMEOWNERS")
