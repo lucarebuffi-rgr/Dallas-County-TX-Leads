@@ -1,4 +1,4 @@
-    #!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Dallas County TX – Motivated Seller Lead Scraper
 Uses PublicSearch for clerk records + DCAD ACCOUNT_INFO.CSV for parcel lookup.
@@ -32,7 +32,7 @@ logging.basicConfig(
 log = logging.getLogger(__name__)
 
 BASE_URL      = "https://dallas.tx.publicsearch.us"
-ACCT_INFO_URL = "https://drive.google.com/uc?export=download&id=1RvVg3bJO-1zXvcYDnOnst4mGFwAVaxEI"
+GDRIVE_FILE_ID = "1RvVg3bJO-1zXvcYDnOnst4mGFwAVaxEI"
 LOOKBACK_DAYS = 101
 PAGE_LIMIT    = 250
 REQUEST_TIMEOUT = 300
@@ -112,75 +112,58 @@ def normalize_for_fuzzy(name: str) -> tuple:
 # ── PARCEL LOOKUP ─────────────────────────────────────────────────────────
 
 def build_parcel_lookup() -> dict:
+    import gdown
     lookup = {}
-    log.info("Downloading DCAD ACCOUNT_INFO.CSV from Google Drive...")
+    log.info("Downloading DCAD ACCOUNT_INFO.CSV via gdown...")
     try:
-        session = requests.Session()
-        session.headers.update({"User-Agent": "Mozilla/5.0"})
-
-        # Handle Google Drive large file confirmation
-        r = session.get(ACCT_INFO_URL, stream=True, timeout=REQUEST_TIMEOUT)
-
-        # Check for virus scan warning page
-        if "confirm=" in r.url or "virus scan warning" in r.text.lower():
-            # Extract confirm token
-            confirm = re.search(r'confirm=([0-9A-Za-z_]+)', r.text)
-            if confirm:
-                url = ACCT_INFO_URL + "&confirm=" + confirm.group(1)
-                r = session.get(url, stream=True, timeout=REQUEST_TIMEOUT)
-
-        if r.status_code != 200:
-            log.warning(f"Download error: {r.status_code}")
-            return lookup
+        tmp_path = "/tmp/account_info.csv"
+        gdown.download(id=GDRIVE_FILE_ID, output=tmp_path, quiet=False)
 
         log.info("Parsing ACCOUNT_INFO.CSV (residential only)...")
-        content = b""
-        for chunk in r.iter_content(chunk_size=1024*1024):
-            content += chunk
-
-        reader = csv.DictReader(io.StringIO(content.decode("latin-1")))
         total = 0
-        for row in reader:
-            if row.get("DIVISION_CD", "").strip().upper() != "RES":
-                continue
+        with open(tmp_path, encoding="latin-1") as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                if row.get("DIVISION_CD", "").strip().upper() != "RES":
+                    continue
 
-            owner_name = (row.get("OWNER_NAME1") or "").strip().upper()
-            if not owner_name:
-                continue
+                owner_name = (row.get("OWNER_NAME1") or "").strip().upper()
+                if not owner_name:
+                    continue
 
-            if any(x in owner_name for x in ("LLC", "INC", "CORP", "LTD", "TRUST", "ASSOC")):
-                continue
+                if any(x in owner_name for x in ("LLC", "INC", "CORP", "LTD", "TRUST", "ASSOC")):
+                    continue
 
-            street_num  = (row.get("STREET_NUM") or "").strip()
-            street_name = (row.get("FULL_STREET_NAME") or "").strip()
-            prop_city   = (row.get("PROPERTY_CITY") or "Dallas").strip()
-            prop_zip    = (row.get("PROPERTY_ZIPCODE") or "").strip()
-            prop_address = f"{street_num} {street_name}".strip()
+                street_num  = (row.get("STREET_NUM") or "").strip()
+                street_name = (row.get("FULL_STREET_NAME") or "").strip()
+                prop_city   = (row.get("PROPERTY_CITY") or "Dallas").strip()
+                prop_zip    = (row.get("PROPERTY_ZIPCODE") or "").strip()
+                prop_address = f"{street_num} {street_name}".strip()
 
-            mail1 = (row.get("OWNER_ADDRESS_LINE1") or "").strip()
-            mail2 = (row.get("OWNER_ADDRESS_LINE2") or "").strip()
-            mail_address = f"{mail1} {mail2}".strip() if mail2 else mail1
-            mail_city    = (row.get("OWNER_CITY") or "").strip()
-            mail_state   = (row.get("OWNER_STATE") or "TX").strip()
-            mail_zip     = (row.get("OWNER_ZIPCODE") or "").strip()
+                mail1 = (row.get("OWNER_ADDRESS_LINE1") or "").strip()
+                mail2 = (row.get("OWNER_ADDRESS_LINE2") or "").strip()
+                mail_address = f"{mail1} {mail2}".strip() if mail2 else mail1
+                mail_city    = (row.get("OWNER_CITY") or "").strip()
+                mail_state   = (row.get("OWNER_STATE") or "TX").strip()
+                mail_zip     = (row.get("OWNER_ZIPCODE") or "").strip()
 
-            parcel = {
-                "prop_address": prop_address,
-                "prop_city":    prop_city,
-                "prop_state":   "TX",
-                "prop_zip":     prop_zip,
-                "mail_address": mail_address,
-                "mail_city":    mail_city,
-                "mail_state":   mail_state,
-                "mail_zip":     mail_zip,
-            }
+                parcel = {
+                    "prop_address": prop_address,
+                    "prop_city":    prop_city,
+                    "prop_state":   "TX",
+                    "prop_zip":     prop_zip,
+                    "mail_address": mail_address,
+                    "mail_city":    mail_city,
+                    "mail_state":   mail_state,
+                    "mail_zip":     mail_zip,
+                }
 
-            for variant in name_variants(owner_name):
-                lookup[variant] = parcel
+                for variant in name_variants(owner_name):
+                    lookup[variant] = parcel
 
-            total += 1
-            if total % 50000 == 0:
-                log.info(f"  Processed {total:,} residential parcels...")
+                total += 1
+                if total % 50000 == 0:
+                    log.info(f"  Processed {total:,} residential parcels...")
 
         log.info(f"Dallas CAD lookup built: {len(lookup):,} name variants from {total:,} parcels")
 
