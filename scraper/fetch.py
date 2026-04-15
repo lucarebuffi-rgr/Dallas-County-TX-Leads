@@ -31,10 +31,10 @@ logging.basicConfig(
 )
 log = logging.getLogger(__name__)
 
-BASE_URL      = "https://dallas.tx.publicsearch.us"
+BASE_URL       = "https://dallas.tx.publicsearch.us"
 GDRIVE_FILE_ID = "1RvVg3bJO-1zXvcYDnOnst4mGFwAVaxEI"
-LOOKBACK_DAYS = 7
-PAGE_LIMIT    = 250
+LOOKBACK_DAYS  = 7
+PAGE_LIMIT     = 250
 REQUEST_TIMEOUT = 300
 
 DOC_TYPES = {
@@ -58,6 +58,16 @@ GRANTEE_IS_OWNER = {"LC", "CSL", "FTL", "STL", "NLF", "JUD", "AJ", "ALN", "ADL",
 
 NAME_SUFFIXES = {"JR", "SR", "II", "III", "IV", "V", "ESQ", "TRUSTEE", "TR",
                  "ETAL", "ET", "AL", "ET AL", "ETUX", "ET UX", "ESTATE"}
+
+ENTITY_FILTERS = (
+    "LLC", "INC", "CORP", "LTD", "LP ", "L.P.", "TRUST", "ASSOC", "HOMEOWNERS",
+    "STATE OF", "CITY OF", "COUNTY OF", "DISTRICT", "MUNICIPALITY", "DEPT ",
+    "ISD", "UTILITY", "AUTHORITY", "COMMISSION", "FEDERAL", "NATIONAL BANK",
+    "MORTGAGE", "FINANCIAL", "INVESTMENT", "PROPERTIES", "REALTY", "HOLDINGS",
+    "PARTNERS", "GROUP", "SERVICES", "MANAGEMENT", "SOLUTIONS", "ENTERPRISES",
+    "N/A", "UNKNOWN", "PUBLIC", "ATTY GEN", "ATTY/GEN", "DALLAS CITY",
+    "CITY DALLAS", "FORT WORTH", "ARLINGTON CITY"
+)
 
 
 def parse_date(raw: str) -> Optional[str]:
@@ -109,6 +119,16 @@ def normalize_for_fuzzy(name: str) -> tuple:
     return tokens[0], set(tokens[1:])
 
 
+def is_entity(name: str) -> bool:
+    n = name.strip().upper()
+    if not n or n in ("N/A", "NA", "UNKNOWN", "PUBLIC", ""):
+        return True
+    tokens = [t for t in re.sub(r"[^\w\s]", "", n).split() if len(t) > 1]
+    if len(tokens) < 2:
+        return True
+    return any(x in n for x in ENTITY_FILTERS)
+
+
 # ── PARCEL LOOKUP ─────────────────────────────────────────────────────────
 
 def build_parcel_lookup() -> dict:
@@ -128,10 +148,7 @@ def build_parcel_lookup() -> dict:
                     continue
 
                 owner_name = (row.get("OWNER_NAME1") or "").strip().upper()
-                if not owner_name:
-                    continue
-
-                if any(x in owner_name for x in ("LLC", "INC", "CORP", "LTD", "TRUST", "ASSOC")):
+                if not owner_name or is_entity(owner_name):
                     continue
 
                 street_num  = (row.get("STREET_NUM") or "").strip()
@@ -139,6 +156,9 @@ def build_parcel_lookup() -> dict:
                 prop_city   = (row.get("PROPERTY_CITY") or "Dallas").strip()
                 prop_zip    = (row.get("PROPERTY_ZIPCODE") or "").strip()
                 prop_address = f"{street_num} {street_name}".strip()
+
+                if not prop_address:
+                    continue
 
                 mail1 = (row.get("OWNER_ADDRESS_LINE1") or "").strip()
                 mail2 = (row.get("OWNER_ADDRESS_LINE2") or "").strip()
@@ -389,6 +409,18 @@ def enrich_with_parcel(records: list, lookup: dict) -> list:
         owner = (rec.get("grantee") if dtype in GRANTEE_IS_OWNER else rec.get("grantor") or "").upper().strip()
         parcel = None
 
+        # Skip entities immediately
+        if is_entity(owner):
+            rec.setdefault("prop_address", "")
+            rec.setdefault("prop_city",    "")
+            rec.setdefault("prop_state",   "TX")
+            rec.setdefault("prop_zip",     "")
+            rec.setdefault("mail_address", "")
+            rec.setdefault("mail_city",    "")
+            rec.setdefault("mail_state",   "TX")
+            rec.setdefault("mail_zip",     "")
+            continue
+
         for variant in name_variants(owner):
             parcel = lookup.get(variant)
             if parcel:
@@ -396,18 +428,18 @@ def enrich_with_parcel(records: list, lookup: dict) -> list:
 
         if not parcel and owner:
             o_last, o_firsts = normalize_for_fuzzy(owner)
-            if o_last:
+            if o_last and o_firsts:
                 for c_last, c_firsts, candidate in fuzzy_index:
                     if c_last != o_last:
                         continue
-                    smaller = o_firsts if len(o_firsts) <= len(c_firsts) else c_firsts
-                    larger  = o_firsts if len(o_firsts) >  len(c_firsts) else c_firsts
-                    if not smaller or smaller.issubset(larger):
+                    if not c_firsts:
+                        continue
+                    if o_firsts & c_firsts:
                         parcel = candidate
                         break
                     o_str = " ".join(sorted(o_firsts))
                     c_str = " ".join(sorted(c_firsts))
-                    if o_str and c_str and SequenceMatcher(None, o_str, c_str).ratio() >= 0.82:
+                    if o_str and c_str and SequenceMatcher(None, o_str, c_str).ratio() >= 0.85:
                         parcel = candidate
                         break
 
@@ -460,6 +492,7 @@ def score_record(rec: dict) -> tuple:
     score += 10 * len(flags)
     if "Lis pendens" in flags:      score += 20
     if "Probate / estate" in flags: score += 10
+    if "Bankruptcy" in flags:       score += 15
     if amount and amount > 100_000: score += 15
     elif amount and amount > 50_000: score += 10
     if "New this week" in flags:    score += 5
@@ -512,10 +545,13 @@ def build_output(raw_records: list, date_from: str, date_to: str) -> dict:
     # Remove records with no address
     out_records = [r for r in out_records if r.get("prop_address") or r.get("mail_address")]
 
-    # Remove LLC/corp owned properties
+    # Remove blank/N/A/entity owners
+    out_records = [r for r in out_records if not is_entity(r.get("owner", ""))]
+
+    # Remove LLC/corp/government owned properties
     out_records = [r for r in out_records if not any(
         x in (r.get("owner", "")).upper()
-        for x in ("LLC", "INC", "CORP", "LTD", "LP ", "L.P.", "TRUST", "ASSOC", "HOMEOWNERS")
+        for x in ENTITY_FILTERS
     )]
 
     out_records.sort(key=lambda r: (-r["score"], r.get("filed", "") or ""))
