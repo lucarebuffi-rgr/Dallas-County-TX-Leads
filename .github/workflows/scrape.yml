@@ -32,7 +32,7 @@ jobs:
           python-version: "3.11"
 
       - name: Install Python dependencies
-        run: pip install requests playwright
+        run: pip install requests playwright gdown
 
       - name: Install Playwright browsers
         run: python -m playwright install --with-deps chromium
