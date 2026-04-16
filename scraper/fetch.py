@@ -269,7 +269,7 @@ async def scrape_doc_type(browser, doc_code: str, cat: str, cat_label: str,
 
         try:
             await page.goto(url, timeout=30_000)
-            await asyncio.sleep(20)
+            await asyncio.sleep(30)
 
             js_result = await page.evaluate("""
                 () => {
@@ -288,8 +288,8 @@ async def scrape_doc_type(browser, doc_code: str, cat: str, cat_label: str,
             """)
 
             if not js_result:
-                log.info(f"    No rows — retrying after 10s...")
-                await asyncio.sleep(10)
+                log.info(f"    No rows — retrying after 15s...")
+                await asyncio.sleep(15)
                 js_result = await page.evaluate("""
                     () => {
                         const texts = [];
