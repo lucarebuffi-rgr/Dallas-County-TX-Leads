@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 Dallas County TX – Motivated Seller Lead Scraper
-Uses PublicSearch for clerk records + DCAD ACCOUNT_INFO.CSV for parcel lookup.
 """
 
 import asyncio
@@ -33,7 +32,7 @@ log = logging.getLogger(__name__)
 
 BASE_URL       = "https://dallas.tx.publicsearch.us"
 GDRIVE_FILE_ID = "1RvVg3bJO-1zXvcYDnOnst4mGFwAVaxEI"
-LOOKBACK_DAYS  = 7
+LOOKBACK_DAYS  = 14
 PAGE_LIMIT     = 250
 REQUEST_TIMEOUT = 300
 
@@ -138,7 +137,6 @@ def build_parcel_lookup() -> dict:
     try:
         tmp_path = "/tmp/account_info.csv"
         gdown.download(id=GDRIVE_FILE_ID, output=tmp_path, quiet=False)
-
         log.info("Parsing ACCOUNT_INFO.CSV (residential only)...")
         total = 0
         with open(tmp_path, encoding="latin-1") as f:
@@ -146,27 +144,22 @@ def build_parcel_lookup() -> dict:
             for row in reader:
                 if row.get("DIVISION_CD", "").strip().upper() != "RES":
                     continue
-
                 owner_name = (row.get("OWNER_NAME1") or "").strip().upper()
                 if not owner_name or is_entity(owner_name):
                     continue
-
                 street_num  = (row.get("STREET_NUM") or "").strip()
                 street_name = (row.get("FULL_STREET_NAME") or "").strip()
-                prop_city   = (row.get("PROPERTY_CITY") or "Dallas").strip()
-                prop_zip    = (row.get("PROPERTY_ZIPCODE") or "").strip()
                 prop_address = f"{street_num} {street_name}".strip()
-
                 if not prop_address:
                     continue
-
+                prop_city   = (row.get("PROPERTY_CITY") or "Dallas").strip()
+                prop_zip    = (row.get("PROPERTY_ZIPCODE") or "").strip()
                 mail1 = (row.get("OWNER_ADDRESS_LINE1") or "").strip()
                 mail2 = (row.get("OWNER_ADDRESS_LINE2") or "").strip()
                 mail_address = f"{mail1} {mail2}".strip() if mail2 else mail1
                 mail_city    = (row.get("OWNER_CITY") or "").strip()
                 mail_state   = (row.get("OWNER_STATE") or "TX").strip()
                 mail_zip     = (row.get("OWNER_ZIPCODE") or "").strip()
-
                 parcel = {
                     "prop_address": prop_address,
                     "prop_city":    prop_city,
@@ -177,19 +170,14 @@ def build_parcel_lookup() -> dict:
                     "mail_state":   mail_state,
                     "mail_zip":     mail_zip,
                 }
-
                 for variant in name_variants(owner_name):
                     lookup[variant] = parcel
-
                 total += 1
                 if total % 50000 == 0:
                     log.info(f"  Processed {total:,} residential parcels...")
-
         log.info(f"Dallas CAD lookup built: {len(lookup):,} name variants from {total:,} parcels")
-
     except Exception:
         log.error(f"Parcel lookup error:\n{traceback.format_exc()}")
-
     return lookup
 
 
@@ -206,26 +194,21 @@ def parse_text_block(text: str, doc_code: str, cat: str, cat_label: str,
         non_empty = [p for p in parts if p]
         if len(non_empty) < 3:
             return None
-
         grantor   = non_empty[0]
         grantee   = non_empty[1]
         filed_raw = ""
         doc_num   = ""
         legal     = ""
-
         for i, p in enumerate(non_empty):
             if re.match(r"\d{1,2}/\d{1,2}/\d{4}", p):
                 filed_raw = p
                 doc_num   = non_empty[i + 1] if i + 1 < len(non_empty) else ""
                 legal     = non_empty[i + 3] if i + 3 < len(non_empty) else ""
                 break
-
         if not grantor or not filed_raw:
             return None
-
         search_url = (f"{BASE_URL}/results?department=RP&_docTypes={doc_code}"
                       f"&recordedDateRange={dt_from},{dt_to}&searchType=advancedSearch")
-
         return {
             "doc_num":   doc_num,
             "doc_type":  doc_code,
@@ -244,6 +227,29 @@ def parse_text_block(text: str, doc_code: str, cat: str, cat_label: str,
 
 
 # ── PLAYWRIGHT SCRAPER ────────────────────────────────────────────────────
+
+JS_WAIT_FOR_ROWS = """
+    async () => {
+        for (let i = 0; i < 60; i++) {
+            const rows = document.querySelectorAll('tbody tr');
+            if (rows.length > 0) {
+                const texts = [];
+                rows.forEach(row => {
+                    const cells = row.querySelectorAll('td');
+                    if (cells.length >= 5) {
+                        const parts = [];
+                        cells.forEach(td => parts.push(td.innerText.trim()));
+                        texts.push(parts.join('\\t'));
+                    }
+                });
+                if (texts.length > 0) return texts;
+            }
+            await new Promise(r => setTimeout(r, 500));
+        }
+        return [];
+    }
+"""
+
 
 async def scrape_doc_type(browser, doc_code: str, cat: str, cat_label: str,
                            dt_from: str, dt_to: str) -> list:
@@ -268,46 +274,8 @@ async def scrape_doc_type(browser, doc_code: str, cat: str, cat_label: str,
         page = await context.new_page()
 
         try:
-            await page.goto(url, timeout=30_000)
-            await asyncio.sleep(30)
-
-            js_result = await page.evaluate("""
-                () => {
-                    const texts = [];
-                    const rows = document.querySelectorAll('tbody tr');
-                    rows.forEach(row => {
-                        const cells = row.querySelectorAll('td');
-                        if (cells.length >= 5) {
-                            const parts = [];
-                            cells.forEach(td => parts.push(td.innerText.trim()));
-                            texts.push(parts.join('\\t'));
-                        }
-                    });
-                    return texts;
-                }
-            """)
-
-            if not js_result:
-                log.info(f"    No rows — retrying after 15s...")
-                await asyncio.sleep(15)
-                js_result = await page.evaluate("""
-                    () => {
-                        const texts = [];
-                        const rows = document.querySelectorAll('tbody tr');
-                        rows.forEach(row => {
-                            const cells = row.querySelectorAll('td');
-                            if (cells.length >= 5) {
-                                const parts = [];
-                                cells.forEach(td => parts.push(td.innerText.trim()));
-                                texts.push(parts.join('\\t'));
-                            }
-                        });
-                        return texts;
-                    }
-                """)
-                if not js_result:
-                    log.info(f"    Still no rows — done paginating {doc_code}")
-                    break
+            await page.goto(url, timeout=60_000)
+            js_result = await page.evaluate(JS_WAIT_FOR_ROWS)
 
             log.info(f"    Got {len(js_result)} rows")
             for text in js_result:
@@ -336,23 +304,19 @@ async def scrape_all_playwright(date_from: str, date_to: str) -> list:
     if not HAS_PLAYWRIGHT:
         log.error("Playwright not available!")
         return []
-
     try:
         dt_from = datetime.strptime(date_from, "%m/%d/%Y").strftime("%Y%m%d")
         dt_to   = datetime.strptime(date_to,   "%m/%d/%Y").strftime("%Y%m%d")
     except Exception:
         dt_from = date_from.replace("/", "")
         dt_to   = date_to.replace("/", "")
-
     all_records = []
-
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
         for doc_code, (cat, cat_label) in DOC_TYPES.items():
             recs = await scrape_doc_type(browser, doc_code, cat, cat_label, dt_from, dt_to)
             all_records.extend(recs)
         await browser.close()
-
     return all_records
 
 
@@ -409,7 +373,6 @@ def enrich_with_parcel(records: list, lookup: dict) -> list:
         owner = (rec.get("grantee") if dtype in GRANTEE_IS_OWNER else rec.get("grantor") or "").upper().strip()
         parcel = None
 
-        # Skip entities immediately
         if is_entity(owner):
             rec.setdefault("prop_address", "")
             rec.setdefault("prop_city",    "")
@@ -542,16 +505,10 @@ def build_output(raw_records: list, date_from: str, date_to: str) -> dict:
         except Exception:
             log.warning(f"Skipping: {traceback.format_exc()}")
 
-    # Remove records with no address
     out_records = [r for r in out_records if r.get("prop_address") or r.get("mail_address")]
-
-    # Remove blank/N/A/entity owners
     out_records = [r for r in out_records if not is_entity(r.get("owner", ""))]
-
-    # Remove LLC/corp/government owned properties
     out_records = [r for r in out_records if not any(
-        x in (r.get("owner", "")).upper()
-        for x in ENTITY_FILTERS
+        x in (r.get("owner", "")).upper() for x in ENTITY_FILTERS
     )]
 
     out_records.sort(key=lambda r: (-r["score"], r.get("filed", "") or ""))
