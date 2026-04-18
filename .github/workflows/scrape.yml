@@ -17,7 +17,7 @@ concurrency:
 jobs:
   scrape-and-deploy:
     runs-on: ubuntu-22.04
-    timeout-minutes: 60
+    timeout-minutes: 90
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
