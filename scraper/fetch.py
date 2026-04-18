@@ -32,7 +32,7 @@ log = logging.getLogger(__name__)
 
 BASE_URL       = "https://dallas.tx.publicsearch.us"
 GDRIVE_FILE_ID = "1RvVg3bJO-1zXvcYDnOnst4mGFwAVaxEI"
-LOOKBACK_DAYS  = 14
+LOOKBACK_DAYS  = 6
 PAGE_LIMIT     = 250
 REQUEST_TIMEOUT = 300
 
