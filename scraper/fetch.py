@@ -230,7 +230,7 @@ def parse_text_block(text: str, doc_code: str, cat: str, cat_label: str,
 
 JS_WAIT_FOR_ROWS = """
     async () => {
-        for (let i = 0; i < 60; i++) {
+        for (let i = 0; i < 120; i++) {
             const rows = document.querySelectorAll('tbody tr');
             if (rows.length > 0) {
                 const texts = [];
