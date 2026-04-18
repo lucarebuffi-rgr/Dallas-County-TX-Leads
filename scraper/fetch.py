@@ -274,7 +274,7 @@ async def scrape_doc_type(browser, doc_code: str, cat: str, cat_label: str,
         page = await context.new_page()
 
         try:
-            await page.goto(url, timeout=60_000)
+            await page.goto(url, timeout=120_000)
             js_result = await page.evaluate(JS_WAIT_FOR_ROWS)
 
             log.info(f"    Got {len(js_result)} rows")
