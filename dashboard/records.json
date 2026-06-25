@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-06-24T10:19:49.647682Z",
+  "fetched_at": "2026-06-25T10:16:11.270778Z",
   "source": "Dallas County TX \u2013 PublicSearch",
   "date_range": {
-    "from": "06/14/2026",
-    "to": "06/24/2026"
+    "from": "06/15/2026",
+    "to": "06/25/2026"
   },
-  "total": 132,
-  "with_address": 132,
+  "total": 184,
+  "with_address": 184,
   "records": [
     {
       "doc_num": "202600127008",
@@ -26,7 +26,7 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752093035",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=PB&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=PB&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -52,7 +52,7 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752121906",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=PB&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=PB&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -78,7 +78,7 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752171604",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -104,7 +104,7 @@
       "mail_city": "GRAND PRAIRIE",
       "mail_state": "TEXAS",
       "mail_zip": "750514546",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -130,7 +130,33 @@
       "mail_city": "GLENN HEIGHTS",
       "mail_state": "TEXAS",
       "mail_zip": "751548826",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 70,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600127955",
+      "doc_type": "AH",
+      "filed": "2026-06-15",
+      "cat": "probate",
+      "cat_label": "Affidavit of Heirship",
+      "owner": "FAJARDO GEORGE S",
+      "grantee": "FAJARDO ANA A DECD",
+      "amount": null,
+      "legal": "IRVING",
+      "prop_address": "1224 WARWICK DR",
+      "prop_city": "MESQUITE (DALLAS CO)",
+      "prop_state": "TX",
+      "prop_zip": "751504333",
+      "mail_address": "1224 WARWICK DR",
+      "mail_city": "MESQUITE",
+      "mail_state": "TEXAS",
+      "mail_zip": "751504333",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -156,33 +182,7 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752095703",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
-      "flags": [
-        "Probate / estate",
-        "New this week"
-      ],
-      "score": 70,
-      "_demo": false
-    },
-    {
-      "doc_num": "202600127955",
-      "doc_type": "AH",
-      "filed": "2026-06-15",
-      "cat": "probate",
-      "cat_label": "Affidavit of Heirship",
-      "owner": "FAJARDO GEORGE S",
-      "grantee": "FAJARDO ANA A DECD",
-      "amount": null,
-      "legal": "IRVING",
-      "prop_address": "301 KING RICHARD ST",
-      "prop_city": "IRVING",
-      "prop_state": "TX",
-      "prop_zip": "750616426",
-      "mail_address": "301 KING RICHARD ST",
-      "mail_city": "IRVING",
-      "mail_state": "TEXAS",
-      "mail_zip": "750616426",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -208,7 +208,7 @@
       "mail_city": "GLENN HEIGHTS",
       "mail_state": "TEXAS",
       "mail_zip": "751548826",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -234,7 +234,7 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752324159",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -260,7 +260,7 @@
       "mail_city": "GARLAND",
       "mail_state": "TEXAS",
       "mail_zip": "750426120",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -286,7 +286,7 @@
       "mail_city": "S SAN FRAN",
       "mail_state": "CALIFORNIA",
       "mail_zip": "940802927",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -312,7 +312,7 @@
       "mail_city": "S SAN FRAN",
       "mail_state": "CALIFORNIA",
       "mail_zip": "940802927",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -338,7 +338,7 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752122904",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=PB&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=PB&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -364,33 +364,7 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752122037",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=PB&recordedDateRange=20260614,20260624&searchType=advancedSearch",
-      "flags": [
-        "Probate / estate",
-        "New this week"
-      ],
-      "score": 70,
-      "_demo": false
-    },
-    {
-      "doc_num": "202600129387",
-      "doc_type": "AH",
-      "filed": "2026-06-16",
-      "cat": "probate",
-      "cat_label": "Affidavit of Heirship",
-      "owner": "DAVIS KATHY DENISE",
-      "grantee": "HARRIS BENNY SR DECD AKA",
-      "amount": null,
-      "legal": "DALLAS",
-      "prop_address": "1814 BETTE DR",
-      "prop_city": "MESQUITE (DALLAS CO)",
-      "prop_state": "TX",
-      "prop_zip": "751496204",
-      "mail_address": "1814 BETTE DR",
-      "mail_city": "MESQUITE",
-      "mail_state": "TEXAS",
-      "mail_zip": "751496204",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=PB&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -416,7 +390,7 @@
       "mail_city": "MESQUITE",
       "mail_state": "TEXAS",
       "mail_zip": "751505838",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -425,24 +399,24 @@
       "_demo": false
     },
     {
-      "doc_num": "202600128642",
+      "doc_num": "202600129387",
       "doc_type": "AH",
       "filed": "2026-06-16",
       "cat": "probate",
       "cat_label": "Affidavit of Heirship",
-      "owner": "CERDA MARIA",
-      "grantee": "CERDA JUAN V DECD",
+      "owner": "DAVIS KATHY DENISE",
+      "grantee": "HARRIS BENNY SR DECD AKA",
       "amount": null,
       "legal": "DALLAS",
-      "prop_address": "917 CANADIAN CIR",
-      "prop_city": "GRAND PRAIRIE (DALLAS CO)",
+      "prop_address": "1814 BETTE DR",
+      "prop_city": "MESQUITE (DALLAS CO)",
       "prop_state": "TX",
-      "prop_zip": "750502308",
-      "mail_address": "917 CANADIAN CIR",
-      "mail_city": "GRAND PRAIRIE",
+      "prop_zip": "751496204",
+      "mail_address": "1814 BETTE DR",
+      "mail_city": "MESQUITE",
       "mail_state": "TEXAS",
-      "mail_zip": "750502308",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "mail_zip": "751496204",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -468,7 +442,7 @@
       "mail_city": "MESQUITE",
       "mail_state": "TEXAS",
       "mail_zip": "751496204",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -477,50 +451,24 @@
       "_demo": false
     },
     {
-      "doc_num": "202600129438",
+      "doc_num": "202600128642",
       "doc_type": "AH",
       "filed": "2026-06-16",
       "cat": "probate",
       "cat_label": "Affidavit of Heirship",
-      "owner": "MILLS KENNETH R",
-      "grantee": "MILLICAN MICHAEL W DECD",
+      "owner": "CERDA MARIA",
+      "grantee": "CERDA JUAN V DECD",
       "amount": null,
       "legal": "DALLAS",
-      "prop_address": "2220 TOLOSA DR",
-      "prop_city": "DALLAS",
+      "prop_address": "917 CANADIAN CIR",
+      "prop_city": "GRAND PRAIRIE (DALLAS CO)",
       "prop_state": "TX",
-      "prop_zip": "752282022",
-      "mail_address": "2220 TOLOSA DR",
-      "mail_city": "DALLAS",
+      "prop_zip": "750502308",
+      "mail_address": "917 CANADIAN CIR",
+      "mail_city": "GRAND PRAIRIE",
       "mail_state": "TEXAS",
-      "mail_zip": "752282022",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
-      "flags": [
-        "Probate / estate",
-        "New this week"
-      ],
-      "score": 70,
-      "_demo": false
-    },
-    {
-      "doc_num": "202600129391",
-      "doc_type": "AH",
-      "filed": "2026-06-16",
-      "cat": "probate",
-      "cat_label": "Affidavit of Heirship",
-      "owner": "GUADALUPE MUNOZ MARIA",
-      "grantee": "GOMEZ RAMIREZ GUADALUPE DECD",
-      "amount": null,
-      "legal": "DALLAS",
-      "prop_address": "522 ANNAROSE DR",
-      "prop_city": "DALLAS",
-      "prop_state": "TX",
-      "prop_zip": "752323218",
-      "mail_address": "522 ANNAROSE DR",
-      "mail_city": "DALLAS",
-      "mail_state": "TEXAS",
-      "mail_zip": "752323218",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "mail_zip": "750502308",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -546,7 +494,59 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752122307",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 70,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600129438",
+      "doc_type": "AH",
+      "filed": "2026-06-16",
+      "cat": "probate",
+      "cat_label": "Affidavit of Heirship",
+      "owner": "MILLS KENNETH R",
+      "grantee": "MILLICAN MICHAEL W DECD",
+      "amount": null,
+      "legal": "DALLAS",
+      "prop_address": "2220 TOLOSA DR",
+      "prop_city": "DALLAS",
+      "prop_state": "TX",
+      "prop_zip": "752282022",
+      "mail_address": "2220 TOLOSA DR",
+      "mail_city": "DALLAS",
+      "mail_state": "TEXAS",
+      "mail_zip": "752282022",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 70,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600129391",
+      "doc_type": "AH",
+      "filed": "2026-06-16",
+      "cat": "probate",
+      "cat_label": "Affidavit of Heirship",
+      "owner": "GUADALUPE MUNOZ MARIA",
+      "grantee": "GOMEZ RAMIREZ GUADALUPE DECD",
+      "amount": null,
+      "legal": "DALLAS",
+      "prop_address": "522 ANNAROSE DR",
+      "prop_city": "DALLAS",
+      "prop_state": "TX",
+      "prop_zip": "752323218",
+      "mail_address": "522 ANNAROSE DR",
+      "mail_city": "DALLAS",
+      "mail_state": "TEXAS",
+      "mail_zip": "752323218",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -572,7 +572,7 @@
       "mail_city": "GRAND PRAIRIE",
       "mail_state": "TEXAS",
       "mail_zip": "750503944",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -598,7 +598,7 @@
       "mail_city": "MESQUITE",
       "mail_state": "TEXAS",
       "mail_zip": "751496204",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -624,7 +624,7 @@
       "mail_city": "GARLAND",
       "mail_state": "TEXAS",
       "mail_zip": "750401158",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -650,7 +650,7 @@
       "mail_city": "MESQUITE",
       "mail_state": "TEXAS",
       "mail_zip": "751496204",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -676,7 +676,7 @@
       "mail_city": "MESQUITE",
       "mail_state": "TEXAS",
       "mail_zip": "751496204",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -702,7 +702,7 @@
       "mail_city": "MESQUITE",
       "mail_state": "TEXAS",
       "mail_zip": "751496204",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -728,7 +728,7 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752257105",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -754,7 +754,7 @@
       "mail_city": "MESQUITE",
       "mail_state": "TEXAS",
       "mail_zip": "751496204",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -780,7 +780,7 @@
       "mail_city": "RICHARDSON",
       "mail_state": "TEXAS",
       "mail_zip": "750805808",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -806,7 +806,7 @@
       "mail_city": "MESQUITE",
       "mail_state": "TEXAS",
       "mail_zip": "751496204",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -832,7 +832,7 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752323128",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -858,7 +858,7 @@
       "mail_city": "GARLAND",
       "mail_state": "TEXAS",
       "mail_zip": "750435411",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -884,7 +884,7 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752491816",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -910,33 +910,7 @@
       "mail_city": "ROWLETT",
       "mail_state": "TEXAS",
       "mail_zip": "750885378",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
-      "flags": [
-        "Probate / estate",
-        "New this week"
-      ],
-      "score": 70,
-      "_demo": false
-    },
-    {
-      "doc_num": "202600129094",
-      "doc_type": "AH",
-      "filed": "2026-06-16",
-      "cat": "probate",
-      "cat_label": "Affidavit of Heirship",
-      "owner": "ROSALES ALVARO SANCHEZ JR",
-      "grantee": "ROSALES NANCIE PHELPS DECD",
-      "amount": null,
-      "legal": "DALLAS",
-      "prop_address": "5609 HOLLIS AVE",
-      "prop_city": "DALLAS",
-      "prop_state": "TX",
-      "prop_zip": "752276306",
-      "mail_address": "NANCIE P 5609 HOLLIS AVE",
-      "mail_city": "DALLAS",
-      "mail_state": "TEXAS",
-      "mail_zip": "752276306",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -962,7 +936,33 @@
       "mail_city": "MESQUITE",
       "mail_state": "TEXAS",
       "mail_zip": "751493112",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 70,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600129094",
+      "doc_type": "AH",
+      "filed": "2026-06-16",
+      "cat": "probate",
+      "cat_label": "Affidavit of Heirship",
+      "owner": "ROSALES ALVARO SANCHEZ JR",
+      "grantee": "ROSALES NANCIE PHELPS DECD",
+      "amount": null,
+      "legal": "DALLAS",
+      "prop_address": "5609 HOLLIS AVE",
+      "prop_city": "DALLAS",
+      "prop_state": "TX",
+      "prop_zip": "752276306",
+      "mail_address": "NANCIE P 5609 HOLLIS AVE",
+      "mail_city": "DALLAS",
+      "mail_state": "TEXAS",
+      "mail_zip": "752276306",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -988,7 +988,7 @@
       "mail_city": "DESOTO",
       "mail_state": "TEXAS",
       "mail_zip": "751155350",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -1014,7 +1014,7 @@
       "mail_city": "MESQUITE",
       "mail_state": "TEXAS",
       "mail_zip": "751496204",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -1040,7 +1040,7 @@
       "mail_city": "ROWLETT",
       "mail_state": "TEXAS",
       "mail_zip": "750882446",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=PB&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=PB&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -1066,7 +1066,7 @@
       "mail_city": "MESQUITE",
       "mail_state": "TEXAS",
       "mail_zip": "751495421",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -1092,7 +1092,7 @@
       "mail_city": "DESOTO",
       "mail_state": "TEXAS",
       "mail_zip": "751151200",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -1118,7 +1118,7 @@
       "mail_city": "MESQUITE",
       "mail_state": "TEXAS",
       "mail_zip": "751495421",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -1144,7 +1144,7 @@
       "mail_city": "MESQUITE",
       "mail_state": "TEXAS",
       "mail_zip": "751496117",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -1170,7 +1170,7 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752491210",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -1196,7 +1196,7 @@
       "mail_city": "MESQUITE",
       "mail_state": "TEXAS",
       "mail_zip": "751495421",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -1222,7 +1222,7 @@
       "mail_city": "MESQUITE",
       "mail_state": "TEXAS",
       "mail_zip": "751495421",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -1248,7 +1248,7 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752491038",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -1274,7 +1274,7 @@
       "mail_city": "MESQUITE",
       "mail_state": "TEXAS",
       "mail_zip": "751495421",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -1300,7 +1300,7 @@
       "mail_city": "RICHARDSON",
       "mail_state": "TEXAS",
       "mail_zip": "750806945",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=PB&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=PB&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -1326,33 +1326,7 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752257115",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=PB&recordedDateRange=20260614,20260624&searchType=advancedSearch",
-      "flags": [
-        "Probate / estate",
-        "New this week"
-      ],
-      "score": 70,
-      "_demo": false
-    },
-    {
-      "doc_num": "202600131455",
-      "doc_type": "AH",
-      "filed": "2026-06-18",
-      "cat": "probate",
-      "cat_label": "Affidavit of Heirship",
-      "owner": "CARDENAS JUAN",
-      "grantee": "MORALES JOSUEL DECD AKA",
-      "amount": null,
-      "legal": "MESQUITE",
-      "prop_address": "122 WILSHIRE CT",
-      "prop_city": "IRVING",
-      "prop_state": "TX",
-      "prop_zip": "750612959",
-      "mail_address": "122 WILSHIRE CT",
-      "mail_city": "IRVING",
-      "mail_state": "TEXAS",
-      "mail_zip": "750610000",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=PB&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -1378,7 +1352,33 @@
       "mail_city": "MESQUITE",
       "mail_state": "TEXAS",
       "mail_zip": "751502649",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 70,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600131455",
+      "doc_type": "AH",
+      "filed": "2026-06-18",
+      "cat": "probate",
+      "cat_label": "Affidavit of Heirship",
+      "owner": "CARDENAS JUAN",
+      "grantee": "MORALES JOSUEL DECD AKA",
+      "amount": null,
+      "legal": "MESQUITE",
+      "prop_address": "122 WILSHIRE CT",
+      "prop_city": "IRVING",
+      "prop_state": "TX",
+      "prop_zip": "750612959",
+      "mail_address": "122 WILSHIRE CT",
+      "mail_city": "IRVING",
+      "mail_state": "TEXAS",
+      "mail_zip": "750610000",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -1404,7 +1404,7 @@
       "mail_city": "GARLAND",
       "mail_state": "TEXAS",
       "mail_zip": "750425615",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -1430,7 +1430,7 @@
       "mail_city": "MESQUITE",
       "mail_state": "TEXAS",
       "mail_zip": "751502649",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -1456,7 +1456,7 @@
       "mail_city": "FARMERS BRANCH",
       "mail_state": "TEXAS",
       "mail_zip": "752344741",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -1482,33 +1482,7 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752182284",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
-      "flags": [
-        "Probate / estate",
-        "New this week"
-      ],
-      "score": 70,
-      "_demo": false
-    },
-    {
-      "doc_num": "202600131170",
-      "doc_type": "AH",
-      "filed": "2026-06-18",
-      "cat": "probate",
-      "cat_label": "Affidavit of Heirship",
-      "owner": "MARTINEZ MARY I",
-      "grantee": "CHAVEZ DAVID JULIUS DECD",
-      "amount": null,
-      "legal": "N/A",
-      "prop_address": "33 E TOWNHOUSE LN",
-      "prop_city": "GRAND PRAIRIE (DALLAS CO)",
-      "prop_state": "TX",
-      "prop_zip": "750525991",
-      "mail_address": "33 E TOWNHOUSE LN",
-      "mail_city": "GRAND PRAIRIE",
-      "mail_state": "TEXAS",
-      "mail_zip": "750525991",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -1534,7 +1508,33 @@
       "mail_city": "ROWLETT",
       "mail_state": "TEXAS",
       "mail_zip": "750899571",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 70,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600131170",
+      "doc_type": "AH",
+      "filed": "2026-06-18",
+      "cat": "probate",
+      "cat_label": "Affidavit of Heirship",
+      "owner": "MARTINEZ MARY I",
+      "grantee": "CHAVEZ DAVID JULIUS DECD",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "33 E TOWNHOUSE LN",
+      "prop_city": "GRAND PRAIRIE (DALLAS CO)",
+      "prop_state": "TX",
+      "prop_zip": "750525991",
+      "mail_address": "33 E TOWNHOUSE LN",
+      "mail_city": "GRAND PRAIRIE",
+      "mail_state": "TEXAS",
+      "mail_zip": "750525991",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -1560,7 +1560,7 @@
       "mail_city": "MESQUITE",
       "mail_state": "TEXAS",
       "mail_zip": "751492534",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -1586,7 +1586,7 @@
       "mail_city": "IRVING",
       "mail_state": "TEXAS",
       "mail_zip": "750610000",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -1612,7 +1612,7 @@
       "mail_city": "GRAND PRAIRIE",
       "mail_state": "TEXAS",
       "mail_zip": "750502308",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -1638,7 +1638,7 @@
       "mail_city": "IRVING",
       "mail_state": "TEXAS",
       "mail_zip": "750394163",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -1664,7 +1664,397 @@
       "mail_city": "GARLAND",
       "mail_state": "TEXAS",
       "mail_zip": "750425606",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 70,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132675",
+      "doc_type": "PB",
+      "filed": "2026-06-22",
+      "cat": "probate",
+      "cat_label": "Probate",
+      "owner": "MUELSCHEN JOHN FREDERICK DECD",
+      "grantee": "MUELSCHEN JOHN FREDERICK DECD",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "706 CHIPPEWA LN",
+      "prop_city": "GRAND PRAIRIE (DALLAS CO)",
+      "prop_state": "TX",
+      "prop_zip": "750523114",
+      "mail_address": "706 CHIPPEWA LN",
+      "mail_city": "GRAND PRAIRIE",
+      "mail_state": "TEXAS",
+      "mail_zip": "750523114",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=PB&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 70,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132102",
+      "doc_type": "PB",
+      "filed": "2026-06-22",
+      "cat": "probate",
+      "cat_label": "Probate",
+      "owner": "SIMMONS THELMA INEZ DECD",
+      "grantee": "SIMMONS THELMA INEZ DECD",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "833 TRAVIS ST",
+      "prop_city": "GARLAND (DALLAS CO)",
+      "prop_state": "TX",
+      "prop_zip": "750404947",
+      "mail_address": "833 TRAVIS ST",
+      "mail_city": "GARLAND",
+      "mail_state": "TEXAS",
+      "mail_zip": "750404947",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=PB&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 70,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600131693",
+      "doc_type": "AH",
+      "filed": "2026-06-22",
+      "cat": "probate",
+      "cat_label": "Affidavit of Heirship",
+      "owner": "ORTIZ MA BERTHA RANGEL",
+      "grantee": "ARANDA FELIPE RANGEL DECD",
+      "amount": null,
+      "legal": "DALLAS",
+      "prop_address": "713 GRANDE DR",
+      "prop_city": "MESQUITE (DALLAS CO)",
+      "prop_state": "TX",
+      "prop_zip": "751495130",
+      "mail_address": "HERNANDEZ ROSAESTELA 713 GRANDE DR",
+      "mail_city": "MESQUITE",
+      "mail_state": "TEXAS",
+      "mail_zip": "751495130",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 70,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600131696",
+      "doc_type": "AH",
+      "filed": "2026-06-22",
+      "cat": "probate",
+      "cat_label": "Affidavit of Heirship",
+      "owner": "ORTIZ MA BERTHA RANGEL",
+      "grantee": "ORTIZ FELIPE DE JESUS RANGEL DECD",
+      "amount": null,
+      "legal": "DALLAS",
+      "prop_address": "713 GRANDE DR",
+      "prop_city": "MESQUITE (DALLAS CO)",
+      "prop_state": "TX",
+      "prop_zip": "751495130",
+      "mail_address": "HERNANDEZ ROSAESTELA 713 GRANDE DR",
+      "mail_city": "MESQUITE",
+      "mail_state": "TEXAS",
+      "mail_zip": "751495130",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 70,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600131695",
+      "doc_type": "AH",
+      "filed": "2026-06-22",
+      "cat": "probate",
+      "cat_label": "Affidavit of Heirship",
+      "owner": "ORTIZ MA BERTHA RANGEL",
+      "grantee": "ORTIZ JOSE EVELIO RANGEL DECD",
+      "amount": null,
+      "legal": "DALLAS",
+      "prop_address": "713 GRANDE DR",
+      "prop_city": "MESQUITE (DALLAS CO)",
+      "prop_state": "TX",
+      "prop_zip": "751495130",
+      "mail_address": "HERNANDEZ ROSAESTELA 713 GRANDE DR",
+      "mail_city": "MESQUITE",
+      "mail_state": "TEXAS",
+      "mail_zip": "751495130",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 70,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132006",
+      "doc_type": "AH",
+      "filed": "2026-06-22",
+      "cat": "probate",
+      "cat_label": "Affidavit of Heirship",
+      "owner": "SHAHAN CALVIN",
+      "grantee": "SHAHAN MARY JANE DECD",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "1600 NOKOMIS RD",
+      "prop_city": "NO TOWN",
+      "prop_state": "TX",
+      "prop_zip": "75146",
+      "mail_address": "1600 NOKOMIS RD",
+      "mail_city": "LANCASTER",
+      "mail_state": "TEXAS",
+      "mail_zip": "751465547",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 70,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132724",
+      "doc_type": "AH",
+      "filed": "2026-06-22",
+      "cat": "probate",
+      "cat_label": "Affidavit of Heirship",
+      "owner": "BELL RHONDA REDO",
+      "grantee": "MOSS JESSIE ADAM DECD",
+      "amount": null,
+      "legal": "DALLAS",
+      "prop_address": "231 TREES DR",
+      "prop_city": "CEDAR HILL",
+      "prop_state": "TX",
+      "prop_zip": "751041200",
+      "mail_address": "231 TREES DR",
+      "mail_city": "CEDAR HILL",
+      "mail_state": "TEXAS",
+      "mail_zip": "751041200",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 70,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600131694",
+      "doc_type": "AH",
+      "filed": "2026-06-22",
+      "cat": "probate",
+      "cat_label": "Affidavit of Heirship",
+      "owner": "ORTIZ MA BERTHA RANGEL",
+      "grantee": "RANGEL HILARIA DECD",
+      "amount": null,
+      "legal": "DALLAS",
+      "prop_address": "713 GRANDE DR",
+      "prop_city": "MESQUITE (DALLAS CO)",
+      "prop_state": "TX",
+      "prop_zip": "751495130",
+      "mail_address": "HERNANDEZ ROSAESTELA 713 GRANDE DR",
+      "mail_city": "MESQUITE",
+      "mail_state": "TEXAS",
+      "mail_zip": "751495130",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 70,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600131715",
+      "doc_type": "AH",
+      "filed": "2026-06-22",
+      "cat": "probate",
+      "cat_label": "Affidavit of Heirship",
+      "owner": "LANGTON BUDDY SR",
+      "grantee": "ROGERS DEBORAH MARIE DECD",
+      "amount": null,
+      "legal": "DALLAS",
+      "prop_address": "2600 STILLWATER DR",
+      "prop_city": "MESQUITE (DALLAS CO)",
+      "prop_state": "TX",
+      "prop_zip": "751811574",
+      "mail_address": "2600 STILLWATER DR",
+      "mail_city": "MESQUITE",
+      "mail_state": "TEXAS",
+      "mail_zip": "751811574",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 70,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600131879",
+      "doc_type": "AH",
+      "filed": "2026-06-22",
+      "cat": "probate",
+      "cat_label": "Affidavit of Heirship",
+      "owner": "MOORE TREVOR JERMAINE",
+      "grantee": "MOORE GREGORY PAUL DECD",
+      "amount": null,
+      "legal": "LANCASTER",
+      "prop_address": "4807 ALBERTA CIR",
+      "prop_city": "SACHSE",
+      "prop_state": "TX",
+      "prop_zip": "750484163",
+      "mail_address": "4807 ALBERTA CIR",
+      "mail_city": "SACHSE",
+      "mail_state": "TEXAS",
+      "mail_zip": "750484163",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 70,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600131697",
+      "doc_type": "AH",
+      "filed": "2026-06-22",
+      "cat": "probate",
+      "cat_label": "Affidavit of Heirship",
+      "owner": "ORTIZ MA BERTHA RANGEL",
+      "grantee": "ORTIZ JOSE DE JESUS RANGEL DECD",
+      "amount": null,
+      "legal": "DALLAS",
+      "prop_address": "713 GRANDE DR",
+      "prop_city": "MESQUITE (DALLAS CO)",
+      "prop_state": "TX",
+      "prop_zip": "751495130",
+      "mail_address": "HERNANDEZ ROSAESTELA 713 GRANDE DR",
+      "mail_city": "MESQUITE",
+      "mail_state": "TEXAS",
+      "mail_zip": "751495130",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 70,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132418",
+      "doc_type": "AH",
+      "filed": "2026-06-22",
+      "cat": "probate",
+      "cat_label": "Affidavit of Heirship",
+      "owner": "ROBINSON LEON",
+      "grantee": "ROBINSON NORMA RUTH DECD",
+      "amount": null,
+      "legal": "DALLAS",
+      "prop_address": "210 OAKHAVEN DR",
+      "prop_city": "GRAND PRAIRIE (DALLAS CO)",
+      "prop_state": "TX",
+      "prop_zip": "750506564",
+      "mail_address": "210 OAKHAVEN DR",
+      "mail_city": "GRAND PRAIRIE",
+      "mail_state": "TEXAS",
+      "mail_zip": "750506564",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 70,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600131926",
+      "doc_type": "AH",
+      "filed": "2026-06-22",
+      "cat": "probate",
+      "cat_label": "Affidavit of Heirship",
+      "owner": "BLANTON HELEN JOAN",
+      "grantee": "BLANTON GEORGE LESTER JR DECD",
+      "amount": null,
+      "legal": "SACHSE",
+      "prop_address": "6405 SACHSE ST",
+      "prop_city": "SACHSE",
+      "prop_state": "TX",
+      "prop_zip": "750483012",
+      "mail_address": "6405 SACHSE ST",
+      "mail_city": "SACHSE",
+      "mail_state": "TEXAS",
+      "mail_zip": "750483012",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 70,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600131945",
+      "doc_type": "AH",
+      "filed": "2026-06-22",
+      "cat": "probate",
+      "cat_label": "Affidavit of Heirship",
+      "owner": "MAYS JAMES W JR",
+      "grantee": "MAYS JAMES W DECD",
+      "amount": null,
+      "legal": "DALLAS",
+      "prop_address": "6555 DARTBROOK DR",
+      "prop_city": "DALLAS",
+      "prop_state": "TX",
+      "prop_zip": "752547917",
+      "mail_address": "MAYS MARILYN KAY 6555 DARTBROOK DR",
+      "mail_city": "DALLAS",
+      "mail_state": "TEXAS",
+      "mail_zip": "752547917",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 70,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600131714",
+      "doc_type": "AH",
+      "filed": "2026-06-22",
+      "cat": "probate",
+      "cat_label": "Affidavit of Heirship",
+      "owner": "TOMLINSON PAM",
+      "grantee": "ROGERS DEBORAH MARIE DECD",
+      "amount": null,
+      "legal": "DALLAS",
+      "prop_address": "8401 GREENSPOINT DR",
+      "prop_city": "ROWLETT (DALLAS CO)",
+      "prop_state": "TX",
+      "prop_zip": "750884797",
+      "mail_address": "8401 GREENSPOINT DR",
+      "mail_city": "ROWLETT",
+      "mail_state": "TEXAS",
+      "mail_zip": "750884797",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Probate / estate",
         "New this week"
@@ -1682,15 +2072,15 @@
       "grantee": "MINDSIGHT MEDICAL LLC",
       "amount": null,
       "legal": "N/A",
-      "prop_address": "11032 EASTVIEW CIR",
+      "prop_address": "3505 TURTLE CREEK BLVD",
       "prop_city": "DALLAS",
       "prop_state": "TX",
-      "prop_zip": "752303530",
-      "mail_address": "LIOUBOV BABAN-LOUTSENKO 11032 EASTVIEW CIR",
+      "prop_zip": "752195562",
+      "mail_address": "APT 6E 3505 TURTLE CREEK BLVD",
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
-      "mail_zip": "752303530",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "mail_zip": "752195566",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -1716,7 +2106,33 @@
       "mail_city": "ROWLETT",
       "mail_state": "TEXAS",
       "mail_zip": "750898463",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600128528",
+      "doc_type": "AJ",
+      "filed": "2026-06-15",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "TORRES JUAN E",
+      "grantee": "WELLS FARGO BANK",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "4933 COUNTRY CLUB DR",
+      "prop_city": "MESQUITE (DALLAS CO)",
+      "prop_state": "TX",
+      "prop_zip": "751501170",
+      "mail_address": "4933 COUNTRY CLUB DR",
+      "mail_city": "MESQUITE",
+      "mail_state": "TEXAS",
+      "mail_zip": "751501170",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -1742,33 +2158,7 @@
       "mail_city": "GARLAND",
       "mail_state": "TEXAS",
       "mail_zip": "750425532",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
-      "flags": [
-        "Judgment lien",
-        "New this week"
-      ],
-      "score": 60,
-      "_demo": false
-    },
-    {
-      "doc_num": "202600128528",
-      "doc_type": "AJ",
-      "filed": "2026-06-15",
-      "cat": "judgment",
-      "cat_label": "Abstract of Judgment",
-      "owner": "TORRES JUAN E",
-      "grantee": "WELLS FARGO BANK",
-      "amount": null,
-      "legal": "N/A",
-      "prop_address": "9420 LIPTON LN",
-      "prop_city": "DALLAS",
-      "prop_state": "TX",
-      "prop_zip": "752178336",
-      "mail_address": "9420 LIPTON LN",
-      "mail_city": "DALLAS",
-      "mail_state": "TEXAS",
-      "mail_zip": "752178336",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -1794,7 +2184,7 @@
       "mail_city": "DESOTO",
       "mail_state": "TEXAS",
       "mail_zip": "751150010",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -1820,7 +2210,7 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752177774",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -1846,7 +2236,7 @@
       "mail_city": "IRVING",
       "mail_state": "TEXAS",
       "mail_zip": "750614438",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -1872,33 +2262,7 @@
       "mail_city": "IRVING",
       "mail_state": "TEXAS",
       "mail_zip": "750617894",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
-      "flags": [
-        "Judgment lien",
-        "New this week"
-      ],
-      "score": 60,
-      "_demo": false
-    },
-    {
-      "doc_num": "202600128197",
-      "doc_type": "AJ",
-      "filed": "2026-06-15",
-      "cat": "judgment",
-      "cat_label": "Abstract of Judgment",
-      "owner": "OROZCO ISAC C",
-      "grantee": "MIDLAND CREDIT MANAGEMENT INC",
-      "amount": null,
-      "legal": "N/A",
-      "prop_address": "901 NE 19TH ST",
-      "prop_city": "GRAND PRAIRIE (DALLAS CO)",
-      "prop_state": "TX",
-      "prop_zip": "750503940",
-      "mail_address": "901 NE 19TH ST",
-      "mail_city": "GRAND PRAIRIE",
-      "mail_state": "TEXAS",
-      "mail_zip": "750503940",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -1924,7 +2288,33 @@
       "mail_city": "IRVING",
       "mail_state": "TEXAS",
       "mail_zip": "750383401",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600128197",
+      "doc_type": "AJ",
+      "filed": "2026-06-15",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "OROZCO ISAC C",
+      "grantee": "MIDLAND CREDIT MANAGEMENT INC",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "901 NE 19TH ST",
+      "prop_city": "GRAND PRAIRIE (DALLAS CO)",
+      "prop_state": "TX",
+      "prop_zip": "750503940",
+      "mail_address": "901 NE 19TH ST",
+      "mail_city": "GRAND PRAIRIE",
+      "mail_state": "TEXAS",
+      "mail_zip": "750503940",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -1950,7 +2340,7 @@
       "mail_city": "GARLAND",
       "mail_state": "TEXAS",
       "mail_zip": "750437645",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -1976,7 +2366,7 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752275034",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -2002,7 +2392,7 @@
       "mail_city": "GRAND PRAIRIE",
       "mail_state": "TEXAS",
       "mail_zip": "750513004",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -2028,7 +2418,7 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752173232",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -2054,7 +2444,7 @@
       "mail_city": "WILMINGTON",
       "mail_state": "DELAWARE",
       "mail_zip": "198011490",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=JUD&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=JUD&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -2080,7 +2470,7 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752178841",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=ML&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=ML&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Mechanic lien",
         "New this week"
@@ -2106,59 +2496,7 @@
       "mail_city": "MESQUITE",
       "mail_state": "TEXAS",
       "mail_zip": "751493440",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
-      "flags": [
-        "Judgment lien",
-        "New this week"
-      ],
-      "score": 60,
-      "_demo": false
-    },
-    {
-      "doc_num": "202600129272",
-      "doc_type": "AJ",
-      "filed": "2026-06-16",
-      "cat": "judgment",
-      "cat_label": "Abstract of Judgment",
-      "owner": "VALLE EMILIO JR",
-      "grantee": "JPMORGAN CHASE BANK",
-      "amount": null,
-      "legal": "N/A",
-      "prop_address": "922 BIRCHWOOD DR",
-      "prop_city": "GARLAND (DALLAS CO)",
-      "prop_state": "TX",
-      "prop_zip": "750435007",
-      "mail_address": "922 BIRCHWOOD DR",
-      "mail_city": "GARLAND",
-      "mail_state": "TEXAS",
-      "mail_zip": "750435007",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
-      "flags": [
-        "Judgment lien",
-        "New this week"
-      ],
-      "score": 60,
-      "_demo": false
-    },
-    {
-      "doc_num": "202600129284",
-      "doc_type": "AJ",
-      "filed": "2026-06-16",
-      "cat": "judgment",
-      "cat_label": "Abstract of Judgment",
-      "owner": "SOTO ABEL",
-      "grantee": "JPMORGAN CHASE BANK",
-      "amount": null,
-      "legal": "N/A",
-      "prop_address": "3425 BROCKWAY DR",
-      "prop_city": "FARMERS BRANCH",
-      "prop_state": "TX",
-      "prop_zip": "752345108",
-      "mail_address": "3425 BROCKWAY DR",
-      "mail_city": "FARMERS BRANCH",
-      "mail_state": "TEXAS",
-      "mail_zip": "752345108",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -2184,7 +2522,59 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752083610",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600129272",
+      "doc_type": "AJ",
+      "filed": "2026-06-16",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "VALLE EMILIO JR",
+      "grantee": "JPMORGAN CHASE BANK",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "922 BIRCHWOOD DR",
+      "prop_city": "GARLAND (DALLAS CO)",
+      "prop_state": "TX",
+      "prop_zip": "750435007",
+      "mail_address": "922 BIRCHWOOD DR",
+      "mail_city": "GARLAND",
+      "mail_state": "TEXAS",
+      "mail_zip": "750435007",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600129284",
+      "doc_type": "AJ",
+      "filed": "2026-06-16",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "SOTO ABEL",
+      "grantee": "JPMORGAN CHASE BANK",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "3425 BROCKWAY DR",
+      "prop_city": "FARMERS BRANCH",
+      "prop_state": "TX",
+      "prop_zip": "752345108",
+      "mail_address": "3425 BROCKWAY DR",
+      "mail_city": "FARMERS BRANCH",
+      "mail_state": "TEXAS",
+      "mail_zip": "752345108",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -2210,7 +2600,7 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752173669",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -2236,7 +2626,7 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752116944",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -2262,7 +2652,7 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752438259",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -2288,7 +2678,7 @@
       "mail_city": "GRAND PRAIRIE",
       "mail_state": "TEXAS",
       "mail_zip": "750511331",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -2314,7 +2704,7 @@
       "mail_city": "GARLAND",
       "mail_state": "TEXAS",
       "mail_zip": "750446925",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -2340,7 +2730,7 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752203709",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -2366,7 +2756,7 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752481603",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -2392,7 +2782,7 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752325218",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -2418,7 +2808,7 @@
       "mail_city": "IRVING",
       "mail_state": "TEXAS",
       "mail_zip": "750623000",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -2444,7 +2834,7 @@
       "mail_city": "OKLAHOMA CITY",
       "mail_state": "OKLAHOMA",
       "mail_zip": "731421846",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -2470,7 +2860,7 @@
       "mail_city": "LANCASTER",
       "mail_state": "TEXAS",
       "mail_zip": "751460098",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=JUD&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=JUD&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -2496,7 +2886,7 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752361257",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=ML&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=ML&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Mechanic lien",
         "New this week"
@@ -2522,7 +2912,7 @@
       "mail_city": "LANCASTER",
       "mail_state": "TEXAS",
       "mail_zip": "751463032",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=CSL&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=CSL&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Child support lien",
         "New this week"
@@ -2548,7 +2938,7 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752201829",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -2574,7 +2964,7 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752362302",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -2600,7 +2990,7 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752177004",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -2626,7 +3016,7 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752283108",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -2652,7 +3042,7 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752173166",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -2670,15 +3060,15 @@
       "grantee": "CAPITAL ONE",
       "amount": null,
       "legal": "N/A",
-      "prop_address": "1505 COUNTRYSIDE WAY",
-      "prop_city": "COMBINE",
+      "prop_address": "1129 WOODY RD",
+      "prop_city": "DALLAS",
       "prop_state": "TX",
-      "prop_zip": "751595283",
+      "prop_zip": "752535052",
       "mail_address": "1129 N WOODY RD",
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752535052",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -2704,7 +3094,7 @@
       "mail_city": "ROWLETT",
       "mail_state": "TEXAS",
       "mail_zip": "750886527",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -2730,7 +3120,7 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752271825",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -2748,15 +3138,15 @@
       "grantee": "PATRICK OCONNOR&ASSOCIATES",
       "amount": null,
       "legal": "N/A",
-      "prop_address": "2511 DELMAC DR",
+      "prop_address": "13535 WILLOW BEND RD",
       "prop_city": "DALLAS",
       "prop_state": "TX",
-      "prop_zip": "752332809",
-      "mail_address": "ELIZABETH 2511 DELMAC DR",
+      "prop_zip": "752403700",
+      "mail_address": "13535 WILLOW BEND RD",
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
-      "mail_zip": "752332809",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "mail_zip": "752403700",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -2774,41 +3164,15 @@
       "grantee": "OCONNOR PATRICK&ASSOCIATES",
       "amount": null,
       "legal": "N/A",
-      "prop_address": "2511 DELMAC DR",
+      "prop_address": "13535 WILLOW BEND RD",
       "prop_city": "DALLAS",
       "prop_state": "TX",
-      "prop_zip": "752332809",
-      "mail_address": "ELIZABETH 2511 DELMAC DR",
+      "prop_zip": "752403700",
+      "mail_address": "13535 WILLOW BEND RD",
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
-      "mail_zip": "752332809",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
-      "flags": [
-        "Judgment lien",
-        "New this week"
-      ],
-      "score": 60,
-      "_demo": false
-    },
-    {
-      "doc_num": "202600129735",
-      "doc_type": "AJ",
-      "filed": "2026-06-17",
-      "cat": "judgment",
-      "cat_label": "Abstract of Judgment",
-      "owner": "GRAY STEPHEN M",
-      "grantee": "MRLA GRAY JENNIFER S",
-      "amount": null,
-      "legal": "N/A",
-      "prop_address": "119 N WINDOMERE AVE",
-      "prop_city": "DALLAS",
-      "prop_state": "TX",
-      "prop_zip": "752085331",
-      "mail_address": "119 N WINDOMERE AVE",
-      "mail_city": "DALLAS",
-      "mail_state": "TEXAS",
-      "mail_zip": "752085331",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "mail_zip": "752403700",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -2834,7 +3198,33 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752112534",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600129735",
+      "doc_type": "AJ",
+      "filed": "2026-06-17",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "GRAY STEPHEN M",
+      "grantee": "MRLA GRAY JENNIFER S",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "119 N WINDOMERE AVE",
+      "prop_city": "DALLAS",
+      "prop_state": "TX",
+      "prop_zip": "752085331",
+      "mail_address": "119 N WINDOMERE AVE",
+      "mail_city": "DALLAS",
+      "mail_state": "TEXAS",
+      "mail_zip": "752085331",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -2860,7 +3250,7 @@
       "mail_city": "GARLAND",
       "mail_state": "TEXAS",
       "mail_zip": "750436818",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -2886,7 +3276,7 @@
       "mail_city": "GARLAND",
       "mail_state": "TEXAS",
       "mail_zip": "750425110",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -2912,7 +3302,7 @@
       "mail_city": "GARLAND",
       "mail_state": "TEXAS",
       "mail_zip": "750425546",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -2938,7 +3328,7 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752274778",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -2964,7 +3354,7 @@
       "mail_city": "SACHSE",
       "mail_state": "TEXAS",
       "mail_zip": "750484358",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -2990,7 +3380,7 @@
       "mail_city": "RICHARDSON",
       "mail_state": "TEXAS",
       "mail_zip": "750813131",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -3016,33 +3406,7 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752275637",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
-      "flags": [
-        "Judgment lien",
-        "New this week"
-      ],
-      "score": 60,
-      "_demo": false
-    },
-    {
-      "doc_num": "202600130182",
-      "doc_type": "AJ",
-      "filed": "2026-06-17",
-      "cat": "judgment",
-      "cat_label": "Abstract of Judgment",
-      "owner": "MARTINEZ JULIAN",
-      "grantee": "CITIBANK",
-      "amount": null,
-      "legal": "N/A",
-      "prop_address": "4814 PHILIP AVE",
-      "prop_city": "DALLAS",
-      "prop_state": "TX",
-      "prop_zip": "752232858",
-      "mail_address": "4814 PHILIP AVE",
-      "mail_city": "DALLAS",
-      "mail_state": "TEXAS",
-      "mail_zip": "752232858",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -3068,7 +3432,33 @@
       "mail_city": "SACHSE",
       "mail_state": "TEXAS",
       "mail_zip": "750483277",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600130182",
+      "doc_type": "AJ",
+      "filed": "2026-06-17",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "MARTINEZ JULIAN",
+      "grantee": "CITIBANK",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "4814 PHILIP AVE",
+      "prop_city": "DALLAS",
+      "prop_state": "TX",
+      "prop_zip": "752232858",
+      "mail_address": "4814 PHILIP AVE",
+      "mail_city": "DALLAS",
+      "mail_state": "TEXAS",
+      "mail_zip": "752232858",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -3094,7 +3484,7 @@
       "mail_city": "SACHSE",
       "mail_state": "TEXAS",
       "mail_zip": "750482935",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -3120,7 +3510,7 @@
       "mail_city": "IRVING",
       "mail_state": "TEXAS",
       "mail_zip": "750623629",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -3146,7 +3536,7 @@
       "mail_city": "LANCASTER",
       "mail_state": "TEXAS",
       "mail_zip": "751461264",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -3172,33 +3562,7 @@
       "mail_city": "SACHSE",
       "mail_state": "TEXAS",
       "mail_zip": "750482935",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
-      "flags": [
-        "Judgment lien",
-        "New this week"
-      ],
-      "score": 60,
-      "_demo": false
-    },
-    {
-      "doc_num": "202600130257",
-      "doc_type": "AJ",
-      "filed": "2026-06-17",
-      "cat": "judgment",
-      "cat_label": "Abstract of Judgment",
-      "owner": "MCCLURE RICHARD G",
-      "grantee": "PATRICK OCONNOR&ASSOCIATES",
-      "amount": null,
-      "legal": "N/A",
-      "prop_address": "2511 DELMAC DR",
-      "prop_city": "DALLAS",
-      "prop_state": "TX",
-      "prop_zip": "752332809",
-      "mail_address": "ELIZABETH 2511 DELMAC DR",
-      "mail_city": "DALLAS",
-      "mail_state": "TEXAS",
-      "mail_zip": "752332809",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -3224,7 +3588,33 @@
       "mail_city": "ROWLETT",
       "mail_state": "TEXAS",
       "mail_zip": "750891958",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600130257",
+      "doc_type": "AJ",
+      "filed": "2026-06-17",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "MCCLURE RICHARD G",
+      "grantee": "PATRICK OCONNOR&ASSOCIATES",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "13535 WILLOW BEND RD",
+      "prop_city": "DALLAS",
+      "prop_state": "TX",
+      "prop_zip": "752403700",
+      "mail_address": "13535 WILLOW BEND RD",
+      "mail_city": "DALLAS",
+      "mail_state": "TEXAS",
+      "mail_zip": "752403700",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -3250,7 +3640,7 @@
       "mail_city": "MESQUITE",
       "mail_state": "TEXAS",
       "mail_zip": "751496800",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -3276,7 +3666,7 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752382625",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=ML&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=ML&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Mechanic lien",
         "New this week"
@@ -3302,7 +3692,7 @@
       "mail_city": "MESQUITE",
       "mail_state": "TEXAS",
       "mail_zip": "751505322",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -3328,7 +3718,7 @@
       "mail_city": "CARROLLTON",
       "mail_state": "TEXAS",
       "mail_zip": "750061471",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -3354,7 +3744,7 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752275256",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -3380,7 +3770,7 @@
       "mail_city": "DALLAS",
       "mail_state": "TEXAS",
       "mail_zip": "752481450",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -3406,7 +3796,7 @@
       "mail_city": "LANCASTER",
       "mail_state": "TEXAS",
       "mail_zip": "751464932",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -3432,9 +3822,971 @@
       "mail_city": "GLENN HEIGHTS",
       "mail_state": "TEXAS",
       "mail_zip": "751548810",
-      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260614,20260624&searchType=advancedSearch",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
       "flags": [
         "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132407",
+      "doc_type": "AJ",
+      "filed": "2026-06-22",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "THOMAS MICHAEL SR AKA",
+      "grantee": "PNC BANK NATIONAL ASSOCIATION",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "4419 ST ANDREWS BLVD",
+      "prop_city": "IRVING",
+      "prop_state": "TX",
+      "prop_zip": "750386443",
+      "mail_address": "4419 SAINT ANDREWS BLVD",
+      "mail_city": "IRVING",
+      "mail_state": "TEXAS",
+      "mail_zip": "750386443",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132444",
+      "doc_type": "AJ",
+      "filed": "2026-06-22",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "LOWE GARY D",
+      "grantee": "MIDLAND CREDIT MANAGEMENT INC",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "10341 DESDEMONA DR",
+      "prop_city": "DALLAS",
+      "prop_state": "TX",
+      "prop_zip": "752283206",
+      "mail_address": "3400 WOODHEIGHTS CT",
+      "mail_city": "PLANO",
+      "mail_state": "TEXAS",
+      "mail_zip": "750748980",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132437",
+      "doc_type": "AJ",
+      "filed": "2026-06-22",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "STANCELL JARRELL",
+      "grantee": "MIDLAND CREDIT MANAGEMENT INC",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "2021 ALSACE DR",
+      "prop_city": "CARROLLTON (DALLAS CO)",
+      "prop_state": "TX",
+      "prop_zip": "750075517",
+      "mail_address": "JEAN JONES 2021 ALSACE DR",
+      "mail_city": "CARROLLTON",
+      "mail_state": "TEXAS",
+      "mail_zip": "750075517",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132489",
+      "doc_type": "AJ",
+      "filed": "2026-06-22",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "THOMAS KEVIN C",
+      "grantee": "CAPITAL ONE",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "3704 SICILY ST",
+      "prop_city": "IRVING",
+      "prop_state": "TX",
+      "prop_zip": "750381466",
+      "mail_address": "3704 SICILY ST",
+      "mail_city": "IRVING",
+      "mail_state": "TEXAS",
+      "mail_zip": "750381466",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132435",
+      "doc_type": "AJ",
+      "filed": "2026-06-22",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "LEE ANYELA L",
+      "grantee": "MIDLAND CREDIT MANAGEMENT INC",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "3029 IRIS DR",
+      "prop_city": "NO TOWN",
+      "prop_state": "TX",
+      "prop_zip": "75146",
+      "mail_address": "3029 IRIS DR",
+      "mail_city": "LANCASTER",
+      "mail_state": "TEXAS",
+      "mail_zip": "751460167",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132409",
+      "doc_type": "AJ",
+      "filed": "2026-06-22",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "WITHERSPOON JAMMIE",
+      "grantee": "CAPITAL ONE",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "13001 HUTTON DR",
+      "prop_city": "FARMERS BRANCH",
+      "prop_state": "TX",
+      "prop_zip": "75234",
+      "mail_address": "13001 HUTTON DR UNIT 12",
+      "mail_city": "FARMERS BRANCH",
+      "mail_state": "TEXAS",
+      "mail_zip": "752341579",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132402",
+      "doc_type": "AJ",
+      "filed": "2026-06-22",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "GILBERT ERIC",
+      "grantee": "CAPITAL ONE",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "2612 LOCKE DR",
+      "prop_city": "GARLAND (DALLAS CO)",
+      "prop_state": "TX",
+      "prop_zip": "750412906",
+      "mail_address": "2612 LOCKE DR",
+      "mail_city": "GARLAND",
+      "mail_state": "TEXAS",
+      "mail_zip": "750412906",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132657",
+      "doc_type": "AJ",
+      "filed": "2026-06-22",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "ESPIRITU HUGO",
+      "grantee": "PHARIA LLC",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "4257 BURNING TREE LN",
+      "prop_city": "GARLAND (DALLAS CO)",
+      "prop_state": "TX",
+      "prop_zip": "750424607",
+      "mail_address": "4257 BURNING TREE LN",
+      "mail_city": "GARLAND",
+      "mail_state": "TEXAS",
+      "mail_zip": "750424607",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132178",
+      "doc_type": "AJ",
+      "filed": "2026-06-22",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "JACKSON BRENDA LIMA",
+      "grantee": "CITIBANK",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "2902 SILKWOOD ST",
+      "prop_city": "DALLAS",
+      "prop_state": "TX",
+      "prop_zip": "752155325",
+      "mail_address": "2902 SILKWOOD ST",
+      "mail_city": "DALLAS",
+      "mail_state": "TEXAS",
+      "mail_zip": "752155325",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132183",
+      "doc_type": "AJ",
+      "filed": "2026-06-22",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "GUTIERREZ OSMAN",
+      "grantee": "CAPITAL ONE",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "2141 BOWIE DR",
+      "prop_city": "CARROLLTON (DALLAS CO)",
+      "prop_state": "TX",
+      "prop_zip": "750067604",
+      "mail_address": "2141 BOWIE DR",
+      "mail_city": "CARROLLTON",
+      "mail_state": "TEXAS",
+      "mail_zip": "750067604",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132411",
+      "doc_type": "AJ",
+      "filed": "2026-06-22",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "BARNETT DONALD",
+      "grantee": "SOFI LENDING CORP AIF",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "214 CITY VIEW CT",
+      "prop_city": "CEDAR HILL",
+      "prop_state": "TX",
+      "prop_zip": "751044818",
+      "mail_address": "214 CITY VIEW CT",
+      "mail_city": "CEDAR HILL",
+      "mail_state": "TEXAS",
+      "mail_zip": "751044818",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132434",
+      "doc_type": "AJ",
+      "filed": "2026-06-22",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "VALERIANO JOSE",
+      "grantee": "MIDLAND CREDIT MANAGEMENT INC",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "602 BLUEBERRY LN",
+      "prop_city": "GRAND PRAIRIE (DALLAS CO)",
+      "prop_state": "TX",
+      "prop_zip": "750525132",
+      "mail_address": "ORTEGA NANCY C REV LIVING TR 602 BLUEBERRY LN",
+      "mail_city": "GRAND PRAIRIE",
+      "mail_state": "TEXAS",
+      "mail_zip": "750525132",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132446",
+      "doc_type": "AJ",
+      "filed": "2026-06-22",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "CEDILLO FRANCISCA",
+      "grantee": "MIDLAND CREDIT MANAGEMENT INC",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "1221 CIELO VISTA DR",
+      "prop_city": "GRAND PRAIRIE (DALLAS CO)",
+      "prop_state": "TX",
+      "prop_zip": "750525442",
+      "mail_address": "1221 CIELO VISTA DR",
+      "mail_city": "GRAND PRAIRIE",
+      "mail_state": "TEXAS",
+      "mail_zip": "750525442",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132426",
+      "doc_type": "AJ",
+      "filed": "2026-06-22",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "MARTINEZ JESUS NAVA",
+      "grantee": "MIDLAND CREDIT MANAGEMENT INC",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "2518 LAS VILLAS AVE",
+      "prop_city": "DALLAS",
+      "prop_state": "TX",
+      "prop_zip": "752117485",
+      "mail_address": "MARIA MARTINEZ 2518 LAS VILLAS AVE",
+      "mail_city": "DALLAS",
+      "mail_state": "TEXAS",
+      "mail_zip": "752117485",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132428",
+      "doc_type": "AJ",
+      "filed": "2026-06-22",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "CARREON THADEO",
+      "grantee": "MIDLAND CREDIT MANAGEMENT INC",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "2325 MEADOW DALE",
+      "prop_city": "IRVING",
+      "prop_state": "TX",
+      "prop_zip": "750607235",
+      "mail_address": "2325 MEADOW DL",
+      "mail_city": "IRVING",
+      "mail_state": "TEXAS",
+      "mail_zip": "750607235",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132429",
+      "doc_type": "AJ",
+      "filed": "2026-06-22",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "ONEAL SHENETTE",
+      "grantee": "MIDLAND CREDIT MANAGEMENT INC",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "4082 PASSAGE WAY",
+      "prop_city": "NO TOWN",
+      "prop_state": "TX",
+      "prop_zip": "75146",
+      "mail_address": "4082 PASSAGE WAY",
+      "mail_city": "LANCASTER",
+      "mail_state": "TEXAS",
+      "mail_zip": "751460106",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132629",
+      "doc_type": "AJ",
+      "filed": "2026-06-22",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "STRINGER LAURA J",
+      "grantee": "U S BANK NATIONAL ASSOCIATION",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "913 N GLEN VISTA DR",
+      "prop_city": "IRVING",
+      "prop_state": "TX",
+      "prop_zip": "750612321",
+      "mail_address": "913 GLEN VISTA DR N",
+      "mail_city": "IRVING",
+      "mail_state": "TEXAS",
+      "mail_zip": "750612321",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132414",
+      "doc_type": "AJ",
+      "filed": "2026-06-22",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "WHITE TRACY N",
+      "grantee": "CAPITAL ONE",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "106 LARIAT TRAIL",
+      "prop_city": "OVILLA",
+      "prop_state": "TX",
+      "prop_zip": "751541648",
+      "mail_address": "106 LARIAT TRL",
+      "mail_city": "OVILLA",
+      "mail_state": "TEXAS",
+      "mail_zip": "751541648",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132166",
+      "doc_type": "AJ",
+      "filed": "2026-06-22",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "CARROLL MICHELLE",
+      "grantee": "SYNCHRONY BANK",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "9105 LARCHWOOD DR",
+      "prop_city": "DALLAS",
+      "prop_state": "TX",
+      "prop_zip": "752382707",
+      "mail_address": "9105 LARCHWOOD DR",
+      "mail_city": "DALLAS",
+      "mail_state": "TEXAS",
+      "mail_zip": "752382707",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132168",
+      "doc_type": "AJ",
+      "filed": "2026-06-22",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "PERRY MARIAN",
+      "grantee": "CITIBANK",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "2701 UNIVERSITY DR",
+      "prop_city": "ROWLETT (DALLAS CO)",
+      "prop_state": "TX",
+      "prop_zip": "750882441",
+      "mail_address": "2701 UNIVERSITY DR",
+      "mail_city": "ROWLETT",
+      "mail_state": "TEXAS",
+      "mail_zip": "750882441",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132427",
+      "doc_type": "AJ",
+      "filed": "2026-06-22",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "HERNANDEZ GERARDO V",
+      "grantee": "MIDLAND CREDIT MANAGEMENT INC",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "1302 BRIERCREST DR",
+      "prop_city": "DALLAS",
+      "prop_state": "TX",
+      "prop_zip": "752178812",
+      "mail_address": "3039 NOWITZKI WAY APT 3310",
+      "mail_city": "DALLAS",
+      "mail_state": "TEXAS",
+      "mail_zip": "752197957",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132622",
+      "doc_type": "AJ",
+      "filed": "2026-06-22",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "VU HIEN T",
+      "grantee": "US BANK NATIONAL ASSOCIATION",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "2221 HUSKEY ST",
+      "prop_city": "GARLAND (DALLAS CO)",
+      "prop_state": "TX",
+      "prop_zip": "750412534",
+      "mail_address": "TRAN DUONG HH 1520 ANEMONE LN",
+      "mail_city": "PROSPER",
+      "mail_state": "TEXAS",
+      "mail_zip": "750783351",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132436",
+      "doc_type": "AJ",
+      "filed": "2026-06-22",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "BUTLER MARILYN",
+      "grantee": "MIDLAND FUNDING LLC",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "3505 JUDGE DUPREE DR",
+      "prop_city": "DALLAS",
+      "prop_state": "TX",
+      "prop_zip": "752415931",
+      "mail_address": "3505 JUDGE DUPREE DR",
+      "mail_city": "DALLAS",
+      "mail_state": "TEXAS",
+      "mail_zip": "752415931",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132439",
+      "doc_type": "AJ",
+      "filed": "2026-06-22",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "ARELLANO ALFONSO",
+      "grantee": "MIDLAND CREDIT MANAGEMENT INC",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "10422 OAK GATE LN",
+      "prop_city": "DALLAS",
+      "prop_state": "TX",
+      "prop_zip": "752173233",
+      "mail_address": "10422 OAK GATE LN",
+      "mail_city": "DALLAS",
+      "mail_state": "TEXAS",
+      "mail_zip": "752173233",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132404",
+      "doc_type": "AJ",
+      "filed": "2026-06-22",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "CAMPBELL REUBEN B",
+      "grantee": "CAPITAL ONE",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "6723 CLARKWOOD DR",
+      "prop_city": "DALLAS",
+      "prop_state": "TX",
+      "prop_zip": "752365848",
+      "mail_address": "6723 CLARKWOOD DR",
+      "mail_city": "DALLAS",
+      "mail_state": "TEXAS",
+      "mail_zip": "752365848",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132512",
+      "doc_type": "AJ",
+      "filed": "2026-06-22",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "MEJORADO JORGE",
+      "grantee": "CITIBANK",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "2729 WEMBLEY DR",
+      "prop_city": "GARLAND (DALLAS CO)",
+      "prop_state": "TX",
+      "prop_zip": "750413418",
+      "mail_address": "2729 WEMBLEY DR",
+      "mail_city": "GARLAND",
+      "mail_state": "TEXAS",
+      "mail_zip": "750413418",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132442",
+      "doc_type": "AJ",
+      "filed": "2026-06-22",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "KENNEDY THURMAN",
+      "grantee": "MIDLAND CREDIT MANAGEMENT INC",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "3629 ENGLISH OAK DR",
+      "prop_city": "GARLAND (DALLAS CO)",
+      "prop_state": "TX",
+      "prop_zip": "750436343",
+      "mail_address": "3629 ENGLISH OAK DR",
+      "mail_city": "GARLAND",
+      "mail_state": "TEXAS",
+      "mail_zip": "750436343",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132395",
+      "doc_type": "AJ",
+      "filed": "2026-06-22",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "SMITH SARAH W",
+      "grantee": "CAPITAL ONE",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "9185 VINTAGE OAKS CT",
+      "prop_city": "DALLAS",
+      "prop_state": "TX",
+      "prop_zip": "752314705",
+      "mail_address": "AUSTIN BARRY 9185 VINTAGE OAKS CT",
+      "mail_city": "DALLAS",
+      "mail_state": "TEXAS",
+      "mail_zip": "752314705",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132440",
+      "doc_type": "AJ",
+      "filed": "2026-06-22",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "MAYIENDA DAMARIS",
+      "grantee": "MIDLAND CREDIT MANAGEMENT INC",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "1309 SUNSHINE CT",
+      "prop_city": "LANCASTER",
+      "prop_state": "TX",
+      "prop_zip": "751344161",
+      "mail_address": "1309 SUNSHINE CT",
+      "mail_city": "LANCASTER",
+      "mail_state": "TEXAS",
+      "mail_zip": "751344161",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132443",
+      "doc_type": "AJ",
+      "filed": "2026-06-22",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "HAWKINS RICHARD",
+      "grantee": "MIDLAND CREDIT MANAGEMENT INC",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "9818 EMORY OAK CIR",
+      "prop_city": "DALLAS",
+      "prop_state": "TX",
+      "prop_zip": "752491417",
+      "mail_address": "CATHERINE D 9818 EMORY OAK CIR",
+      "mail_city": "DALLAS",
+      "mail_state": "TEXAS",
+      "mail_zip": "752491417",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132621",
+      "doc_type": "AJ",
+      "filed": "2026-06-22",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "GERONIMO MARIA AKA",
+      "grantee": "AMERICAN EXPRESS",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "118 S BERNICE DR",
+      "prop_city": "GARLAND (DALLAS CO)",
+      "prop_state": "TX",
+      "prop_zip": "750426901",
+      "mail_address": "118 S BERNICE DR",
+      "mail_city": "GARLAND",
+      "mail_state": "TEXAS",
+      "mail_zip": "750426901",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132447",
+      "doc_type": "AJ",
+      "filed": "2026-06-22",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "CARTER CLARENCE",
+      "grantee": "MIDLAND CREDIT MANAGEMENT INC",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "2412 E ILLINOIS AVE",
+      "prop_city": "DALLAS",
+      "prop_state": "TX",
+      "prop_zip": "752163409",
+      "mail_address": "JUANITA 2412 E ILLINOIS AVE",
+      "mail_city": "DALLAS",
+      "mail_state": "TEXAS",
+      "mail_zip": "752163409",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132165",
+      "doc_type": "AJ",
+      "filed": "2026-06-22",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "OROZCO LUZ",
+      "grantee": "SYNCHRONY BANK",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "3527 W CLARENDON DR",
+      "prop_city": "DALLAS",
+      "prop_state": "TX",
+      "prop_zip": "752116018",
+      "mail_address": "3527 W CLARENDON DR",
+      "mail_city": "DALLAS",
+      "mail_state": "TEXAS",
+      "mail_zip": "752116018",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132445",
+      "doc_type": "AJ",
+      "filed": "2026-06-22",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "WHITTAKER RUSSELL",
+      "grantee": "MIDLAND CREDIT MANAGEMENT INC",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "2701 RIPPLEWOOD DR",
+      "prop_city": "GARLAND (DALLAS CO)",
+      "prop_state": "TX",
+      "prop_zip": "750445945",
+      "mail_address": "GAIL 2701 RIPPLEWOOD DR",
+      "mail_city": "GARLAND",
+      "mail_state": "TEXAS",
+      "mail_zip": "750445945",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132431",
+      "doc_type": "AJ",
+      "filed": "2026-06-22",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "MILLER RUTH",
+      "grantee": "MIDLAND CREDIT MANAGEMENT INC",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "924 FOREST GLEN DR",
+      "prop_city": "DESOTO",
+      "prop_state": "TX",
+      "prop_zip": "751153823",
+      "mail_address": "PO BOX 358",
+      "mail_city": "DESOTO",
+      "mail_state": "TEXAS",
+      "mail_zip": "751230358",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600132433",
+      "doc_type": "AJ",
+      "filed": "2026-06-22",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "BURROUGHS CHARLENE",
+      "grantee": "MIDLAND CREDIT MANAGEMENT INC",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "1630 SPRINGWOOD DR",
+      "prop_city": "MESQUITE (DALLAS CO)",
+      "prop_state": "TX",
+      "prop_zip": "751811782",
+      "mail_address": "1630 SPRINGWOOD DR",
+      "mail_city": "MESQUITE",
+      "mail_state": "TEXAS",
+      "mail_zip": "751811782",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": false
+    },
+    {
+      "doc_num": "202600131624",
+      "doc_type": "ML",
+      "filed": "2026-06-22",
+      "cat": "lien",
+      "cat_label": "Mechanics Lien",
+      "owner": "BUSH LELIA",
+      "grantee": "QH GROUP",
+      "amount": null,
+      "legal": "CEDAR HILL",
+      "prop_address": "216 ROYAL VISTA DR",
+      "prop_city": "CEDAR HILL",
+      "prop_state": "TX",
+      "prop_zip": "75104",
+      "mail_address": "12975 COOPER RIVER TRL",
+      "mail_city": "FRISCO",
+      "mail_state": "TEXAS",
+      "mail_zip": "750351717",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=ML&recordedDateRange=20260615,20260625&searchType=advancedSearch",
+      "flags": [
+        "Mechanic lien",
         "New this week"
       ],
       "score": 60,
