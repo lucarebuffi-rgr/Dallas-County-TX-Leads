@@ -1,11 +1,116 @@
 {
-  "fetched_at": "2026-11-20T16:06:11.347597Z",
+  "fetched_at": "2026-11-21T15:16:30.812489Z",
   "source": "Dallas County TX \u2013 PublicSearch",
   "date_range": {
-    "from": "11/10/2026",
-    "to": "11/20/2026"
+    "from": "11/11/2026",
+    "to": "11/21/2026"
   },
-  "total": 0,
-  "with_address": 0,
-  "records": []
+  "total": 4,
+  "with_address": 4,
+  "records": [
+    {
+      "doc_num": "2026-DEMO-0001",
+      "doc_type": "LP",
+      "filed": "2026-11-11",
+      "cat": "pre_foreclosure",
+      "cat_label": "Lis Pendens",
+      "owner": "SMITH ROBERT",
+      "grantee": "ROCKET MORTGAGE LLC",
+      "amount": null,
+      "legal": "DEMO RECORD",
+      "prop_address": "7533 AMBER DR",
+      "prop_city": "DALLAS",
+      "prop_state": "TX",
+      "prop_zip": "752414500",
+      "mail_address": "608 CANDACE DR",
+      "mail_city": "DESOTO",
+      "mail_state": "TEXAS",
+      "mail_zip": "751158053",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=LP&searchType=advancedSearch",
+      "flags": [
+        "Lis pendens",
+        "New this week"
+      ],
+      "score": 80,
+      "_demo": true
+    },
+    {
+      "doc_num": "2026-DEMO-0010",
+      "doc_type": "AH",
+      "filed": "2026-11-20",
+      "cat": "probate",
+      "cat_label": "Affidavit of Heirship",
+      "owner": "GARCIA CARLOS",
+      "grantee": "GARCIA MARIA",
+      "amount": null,
+      "legal": "DEMO RECORD",
+      "prop_address": "6106 BARNACLE DR",
+      "prop_city": "DALLAS",
+      "prop_state": "TX",
+      "prop_zip": "752492831",
+      "mail_address": "6106 BARNACLE DR",
+      "mail_city": "DALLAS",
+      "mail_state": "TEXAS",
+      "mail_zip": "752492831",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AH&searchType=advancedSearch",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 70,
+      "_demo": true
+    },
+    {
+      "doc_num": "2026-DEMO-0004",
+      "doc_type": "AJ",
+      "filed": "2026-11-14",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "CITIBANK NA",
+      "grantee": "JOHNSON PATRICIA",
+      "amount": 18700.0,
+      "legal": "DEMO RECORD",
+      "prop_address": "1851 CHEVY CHASE DR",
+      "prop_city": "CARROLLTON (DALLAS CO)",
+      "prop_state": "TX",
+      "prop_zip": "750067524",
+      "mail_address": "75 BEATTIE PL STE 300",
+      "mail_city": "GREENVILLE",
+      "mail_state": "SOUTH CAROLINA",
+      "mail_zip": "296012138",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=AJ&searchType=advancedSearch",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": true
+    },
+    {
+      "doc_num": "2026-DEMO-0005",
+      "doc_type": "ML",
+      "filed": "2026-11-15",
+      "cat": "lien",
+      "cat_label": "Mechanics Lien",
+      "owner": "BROWN MICHAEL",
+      "grantee": "LONE STAR CONTR",
+      "amount": 22000.0,
+      "legal": "DEMO RECORD",
+      "prop_address": "2722 BISHOP ALLEN LN",
+      "prop_city": "DALLAS",
+      "prop_state": "TX",
+      "prop_zip": "752373645",
+      "mail_address": "2722 BISHOP ALLEN LN",
+      "mail_city": "DALLAS",
+      "mail_state": "TEXAS",
+      "mail_zip": "752373645",
+      "clerk_url": "https://dallas.tx.publicsearch.us/results?department=RP&_docTypes=ML&searchType=advancedSearch",
+      "flags": [
+        "Mechanic lien",
+        "New this week"
+      ],
+      "score": 60,
+      "_demo": true
+    }
+  ]
 }
